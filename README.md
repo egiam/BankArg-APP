@@ -1,6 +1,8 @@
 # BankArg-APP
 BankArg repository. Universitary project (ISPC)
 
+### Wiki: https://github.com/egiam/BankArg-APP/wiki
+
 ---
 
 # Integrantes actuales
