@@ -16,3 +16,24 @@ BankArg repository. Universitary project (ISPC)
 7. Joaquin Bonvechi - Email: joacobonvechi2272002@gmail.com - GitHub: JoacoBonvechi
 8. Orellana Gabriel Alejandro - Email: gabi.ale.orellana@gmail.com - GitHub: Unbroken13
 9. MILIAN Roberto Ariel - Email: milianarieleam@gmail.com - GitHub: MilianAriel
+
+***
+
+## Repositorio Anterior
+* [https://github.com/egiam/BankArg-ISPC](https://github.com/egiam/BankArg-ISPC)
+
+## Videos Anteriores
+* (2022): [https://youtu.be/rN-Nq3JZeyk](https://youtu.be/rN-Nq3JZeyk)
+* (2023): [https://www.youtube.com/watch?v=ht3yoEX2-hU&t=7s](https://www.youtube.com/watch?v=ht3yoEX2-hU&t=7s)
+
+## Pagina Beta 2022
+* [https://egiam.github.io/BankArg-ISPC/front/index.html](https://egiam.github.io/BankArg-ISPC/front/index.html)
+
+## Wiki
+* [https://github.com/egiam/BankArg-APP/wiki](https://github.com/egiam/BankArg-APP/wiki)
+
+## IEEE830
+* [https://docs.google.com](https://docs.google.com/document/d/1GP3mUcusSDJSBabNtAv_j24QICd07vWKgxNyWRG0tnY/edit?usp=drivesdk)
+
+## Diagrama Relacional
+* https://dbdiagram.io/d/BankArg-6503c0ec02bd1c4a5e9c89a1
