@@ -32,5 +32,8 @@ BankArg repository. Universitary project (ISPC)
 ## Wiki
 * [https://github.com/egiam/BankArg-APP/wiki](https://github.com/egiam/BankArg-APP/wiki)
 
+## IEEE830
+* [https://docs.google.com](https://docs.google.com/document/d/1GP3mUcusSDJSBabNtAv_j24QICd07vWKgxNyWRG0tnY/edit?usp=drivesdk)
+
 ## Diagrama Relacional
 * https://dbdiagram.io/d/BankArg-6503c0ec02bd1c4a5e9c89a1
