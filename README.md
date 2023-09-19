@@ -17,6 +17,7 @@ BankArg repository. Universitary project (ISPC)
 8. Orellana Gabriel Alejandro - Email: gabi.ale.orellana@gmail.com - GitHub: Unbroken13
 9. MILIAN Roberto Ariel - Email: milianarieleam@gmail.com - GitHub: MilianAriel
 
+
 ***
 
 ## Repositorio Anterior
@@ -37,3 +38,9 @@ BankArg repository. Universitary project (ISPC)
 
 ## Diagrama Relacional
 * https://dbdiagram.io/d/BankArg-6503c0ec02bd1c4a5e9c89a1
+
+# Diseño de la Aplicacion en Figma
+* https://www.figma.com/file/AhjScpyVarUiVG0H8JI1IR/BankArg-Dise%C3%B1o-y-prototipado?type=design&node-id=0%3A1&mode=design&t=0lbUY3KUcLKTkotq-1
+
+    
+
