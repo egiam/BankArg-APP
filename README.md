@@ -16,3 +16,9 @@ BankArg repository. Universitary project (ISPC)
 7. Joaquin Bonvechi - Email: joacobonvechi2272002@gmail.com - GitHub: JoacoBonvechi
 8. Orellana Gabriel Alejandro - Email: gabi.ale.orellana@gmail.com - GitHub: Unbroken13
 9. MILIAN Roberto Ariel - Email: milianarieleam@gmail.com - GitHub: MilianAriel
+
+# Diseño de la Aplicacion en Figma
+
+https://www.figma.com/file/AhjScpyVarUiVG0H8JI1IR/BankArg-Dise%C3%B1o-y-prototipado?type=design&node-id=0%3A1&mode=design&t=0lbUY3KUcLKTkotq-1
+
+    
