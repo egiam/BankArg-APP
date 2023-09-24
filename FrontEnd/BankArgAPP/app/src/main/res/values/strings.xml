@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BankArgAPP</string>
+
+    <!-- LOGIN -->
+    <string name="title_app_login">Login</string>
+    <string name="btn_acceder">Acceder</string>
+    <string name="form_user">Usuario</string>
+    <string name="form_password">Contraseña</string>
+</resources>
