@@ -16,6 +16,7 @@
         android:fontFamily="@font/poppins"
         android:foregroundTint="@color/col4"
         android:text="@string/btn_acceder"
+        android:textColor="@color/col2"
         android:textSize="32sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"

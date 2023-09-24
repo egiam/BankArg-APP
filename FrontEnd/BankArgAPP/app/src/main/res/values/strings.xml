@@ -6,4 +6,10 @@
     <string name="btn_acceder">Acceder</string>
     <string name="form_user">Usuario</string>
     <string name="form_password">Contraseña</string>
+    <string name="bankarg_des">
+© BankArg | Designed by BankArg
+</string>
+    <string name="joaqu_n_bon">
+Joaquín Bonvechi
+</string>
 </resources>
