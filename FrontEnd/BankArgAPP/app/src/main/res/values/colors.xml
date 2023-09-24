@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+
+    <!-- PALETA DE BANKARG -->
+    <color name="col1">#2C3333</color>
+    <color name="col2">#E7F6F2</color>
+    <color name="col3">#395B64</color>
+    <color name="col4">#F8F9FA</color>
+    <color name="col5">#767676</color>
+    <color name="col6">#FFFFFFFF</color>
+</resources>

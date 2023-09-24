@@ -42,5 +42,7 @@ BankArg repository. Universitary project (ISPC)
 ## Diseño de la Aplicacion en Figma
 * https://www.figma.com/file/AhjScpyVarUiVG0H8JI1IR/BankArg-Dise%C3%B1o-y-prototipado?type=design&node-id=0%3A1&mode=design&t=0lbUY3KUcLKTkotq-1
 
-    
+## Planificación de casos de prueba
+* https://docs.google.com/spreadsheets/d/11NFxOZDACnIeen5MOgz6tVU_wM_sal1cWBXQvdNFUrE/edit?usp=sharing
+
 
