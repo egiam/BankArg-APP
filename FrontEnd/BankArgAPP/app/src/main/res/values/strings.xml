@@ -6,10 +6,8 @@
     <string name="btn_acceder">Acceder</string>
     <string name="form_user">Usuario</string>
     <string name="form_password">Contraseña</string>
-    <string name="bankarg_des">
-© BankArg | Designed by BankArg
-</string>
-    <string name="joaqu_n_bon">
-Joaquín Bonvechi
-</string>
+    <string name="bankarg_des">© BankArg | Designed by BankArg</string>
+    <string name="joaqu_n_bon">Joaquín Bonvechi</string>
+    <string name="some_id">$55.425.90</string>
+    <string name="tu_cvu_alia">Tu CVU: \n\nAlias: \n\nTeléfono: \n\nDNI: \n\nEmail:\n</string>
 </resources>

@@ -89,10 +89,11 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"
                 android:backgroundTint="@color/col3"
-                android:text="Login"
+                android:text="Acceder"
                 android:textColor="@color/col2"
-                android:textSize="18sp"
-                app:cornerRadius="20dp" />
+                android:textSize="26sp"
+                android:textStyle="bold"
+                app:cornerRadius="24dp" />
 
             <TextView
                 android:id="@+id/signupText"
