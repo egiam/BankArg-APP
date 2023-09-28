@@ -1,15 +1,20 @@
+# BankArg-APP
+BankArg repository. Universitary project (ISPC)
 
-## Personal Involucrado
+### Wiki: https://github.com/egiam/BankArg-APP/wiki
 
-* Soledad Peralta - Email [ssperaltaa@gmail.com](mailto:ssperaltaa@gmail.com) - GitHub: Ssperalta
-* Ezequiel Giampaoli - Email: [ezegiampaoli@gmail.com](mailto:ezegiampaoli@gmail.com) - GitHub: egiam
-* Mariana Trinidad Benegas - Email: [trinidadbenegas.estudio@gmail.com](mailto:trinidadbenegas.estudio@gmail.com) - Github: trinidadbenegas
-* Maria Laura Peralta - Email: [lali.635@gmail.com](mailto:lali.635@gmail.com) - Github: PeraltaMariaL-ISPC ([peraltaml.ispc@gmail.com](mailto:peraltaml.ispc@gmail.com))
-* Valentin Alterio - Email: [alteriovalentin01@gmail.com](mailto:alteriovalentin01@gmail.com) - Github: Valealterio
-* Silvana del Pilar Barea - Email: [silvanahousseini@gmail.com](mailto:silvanahousseini@gmail.com) - Github: recursosssbb
-* Joaquin Bonvechi - Email: [joacobonvechi2272002@gmail.com](mailto:joacobonvechi2272002@gmail.com) - GitHub: JoacoBonvechi
-* Orellana Gabriel Alejandro - Email: [gabi.ale.orellana@gmail.com](mailto:gabi.ale.orellana@gmail.com) - GitHub: Unbroken13
-* MILIAN Roberto Ariel - Email: [milianarieleam@gmail.com](mailto:milianarieleam@gmail.com) - GitHub: MilianAriel
+---
+
+# Integrantes actuales
+
+1. Soledad Peralta - Email ssperaltaa@gmail.com - GitHub: Ssperalta
+2. Ezequiel Giampaoli - Email: ezegiampaoli@gmail.com - GitHub: egiam
+3. Mariana Trinidad Benegas - Email: trinidadbenegas.estudio@gmail.com - Github: trinidadbenegas
+4. Maria Laura Peralta - Email: lali.635@gmail.com - Github: PeraltaMariaL-ISPC (peraltaml.ispc@gmail.com)
+5. Valentin Alterio - Email: alteriovalentin01@gmail.com - Github: Valealterio
+6. Silvana del Pilar Barea - Email: silvanahousseini@gmail.com - Github: recursosssbb
+7. Joaquin Bonvechi - Email: joacobonvechi2272002@gmail.com - GitHub: JoacoBonvechi
+8. MILIAN Roberto Ariel - Email: milianarieleam@gmail.com - GitHub: MilianAriel
 
 
 ***
@@ -32,3 +37,11 @@
 
 ## Diagrama Relacional
 * https://dbdiagram.io/d/BankArg-6503c0ec02bd1c4a5e9c89a1
+
+## Diseño de la Aplicacion en Figma
+* https://www.figma.com/file/AhjScpyVarUiVG0H8JI1IR/BankArg-Dise%C3%B1o-y-prototipado?type=design&node-id=0%3A1&mode=design&t=0lbUY3KUcLKTkotq-1
+
+## Planificación de casos de prueba
+* https://docs.google.com/spreadsheets/d/11NFxOZDACnIeen5MOgz6tVU_wM_sal1cWBXQvdNFUrE/edit?usp=sharing
+
+
