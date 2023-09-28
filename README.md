@@ -14,8 +14,7 @@ BankArg repository. Universitary project (ISPC)
 5. Valentin Alterio - Email: alteriovalentin01@gmail.com - Github: Valealterio
 6. Silvana del Pilar Barea - Email: silvanahousseini@gmail.com - Github: recursosssbb
 7. Joaquin Bonvechi - Email: joacobonvechi2272002@gmail.com - GitHub: JoacoBonvechi
-8. Orellana Gabriel Alejandro - Email: gabi.ale.orellana@gmail.com - GitHub: Unbroken13
-9. MILIAN Roberto Ariel - Email: milianarieleam@gmail.com - GitHub: MilianAriel
+8. MILIAN Roberto Ariel - Email: milianarieleam@gmail.com - GitHub: MilianAriel
 
 
 ***
