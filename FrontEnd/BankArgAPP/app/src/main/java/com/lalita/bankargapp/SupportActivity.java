@@ -10,7 +10,6 @@ import androidx.core.view.GravityCompat;
 
 import android.content.Intent;
 import android.util.Log;
-import android.view.Menu;
 import android.view.MenuItem;
 
 import android.os.Bundle;
@@ -18,18 +17,17 @@ import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class PerfilActivity extends AppCompatActivity {
+public class SupportActivity extends AppCompatActivity {
 
     DrawerLayout drawerLayout;
     NavigationView navigationView;
     Toolbar toolbar;
     ActionBarDrawerToggle toggle;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_perfil);
+        setContentView(R.layout.activity_home);
 
         /*---------------------Hooks------------------------*/
         drawerLayout=findViewById(R.id.drawer_layout);
@@ -49,7 +47,7 @@ public class PerfilActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int itemId = item.getItemId();
 
-                PerfilActivity activity = PerfilActivity.this;
+                SupportActivity activity = SupportActivity.this;
                 if (itemId == R.id.nav_home) {
                     Intent intent = new Intent(activity, HomeActivity.class);
                     Log.i("MENU_DRAWER_TAG", "Home is selected");
@@ -101,11 +99,6 @@ public class PerfilActivity extends AppCompatActivity {
                 return true;
             }
         });
-
-//        if (savedInstanceState == null) {
-//            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
-//            navigationView.setCheckedItem(R.id.nav_home);
-//        }
     }
 
     @Override
@@ -117,64 +110,6 @@ public class PerfilActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-//    @Override
-//    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-//        int itemId = item.getItemId();
-//
-//        if (itemId == R.id.nav_home) {
-//            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
-//        } else if (itemId == R.id.nav_banking) {
-//            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new BankingFragment()).commit();
-//        } else if (itemId == R.id.nav_product) {
-//            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ProductFragment()).commit();
-//        } else if (itemId == R.id.nav_loan) {
-//            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new LoanFragment()).commit();
-//        } else if (itemId == R.id.nav_profile) {
-//            Intent intent = new Intent(PerfilActivity.this, PerfilActivity.class);
-//            startActivities(new Intent[]{intent});
-//        } else if (itemId == R.id.nav_contact) {
-//            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ContactFragment()).commit();
-//        } else if (itemId == R.id.nav_support) {
-//            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new SupportFragment()).commit();
-//        } else if (itemId == R.id.nav_transfer) {
-//            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new TransferFragment()).commit();
-//        } else if (itemId == R.id.nav_logout) {
-//            Toast.makeText(this, "Logout!", Toast.LENGTH_SHORT).show();
-//        }
-//
-////        switch (itemId) {
-////            case R.id.nav_home:
-////                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new HomeFragment()).commit();
-////                break;
-////            case R.id.nav_banking:
-////                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new BankingFragment()).commit();
-////                break;
-////            case R.id.nav_product:
-////                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ProductFragment()).commit();
-////                break;
-////            case R.id.nav_loan:
-////                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new LoanFragment()).commit();
-////                break;
-////            case R.id.nav_profile:
-////                Intent intent = new Intent(PerfilActivity.this, PerfilActivity.class);
-////                startActivities(new Intent[]{intent});
-////                break;
-////            case R.id.nav_contact:
-////                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ContactFragment()).commit();
-////                break;
-////            case R.id.nav_support:
-////                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new SupportFragment()).commit();
-////                break;
-////            case R.id.nav_transfer:
-////                getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new TransferFragment()).commit();
-////                break;
-////            case R.id.nav_logout:
-////                Toast.makeText(this, "Logout!", Toast.LENGTH_SHORT).show();
-////                break;
-////        }
-//        drawerLayout.closeDrawer(GravityCompat.START);
-//        return true;
-//    }
     @Override
     public void onBackPressed() {
         if (drawerLayout.isDrawerOpen(GravityCompat.START)) {
@@ -183,5 +118,4 @@ public class PerfilActivity extends AppCompatActivity {
             super.onBackPressed();
         }
     }
-
 }

@@ -13,6 +13,27 @@
         android:theme="@style/Theme.BankArgAPP"
         tools:targetApi="31">
         <activity
+            android:name=".TransferActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SupportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ContactActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BankingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".PerfilActivity"
             android:exported="false" />
         <activity

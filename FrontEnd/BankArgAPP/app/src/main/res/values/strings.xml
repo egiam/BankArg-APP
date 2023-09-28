@@ -12,4 +12,6 @@
     <string name="joaqu_n_bon">Joaquín Bonvechi</string>
     <string name="some_id">$55.425.90</string>
     <string name="tu_cvu_alia">Tu CVU: \n\nAlias: \n\nTeléfono: \n\nDNI: \n\nEmail:\n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

@@ -2,53 +2,52 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <group android:checkableBehavior="single">
+
         <item
             android:id="@+id/nav_home"
-            android:icon="@drawable/home_icon"
-            android:title="Home" />
+            android:icon="@drawable/baseline_house_24"
+            android:title="Inicio" />
+
         <item
-            android:id="@+id/nav_cycle"
-            android:icon="@drawable/icons8_cycling_500"
-            android:title="Cycling" />
+            android:id="@+id/nav_banking"
+            android:icon="@drawable/baseline_account_balance_24"
+            android:title="Home Banking" />
+
         <item
-            android:id="@+id/nav_bus"
-            android:icon="@drawable/icons8_bus_500"
-            android:title="Bus" />
+            android:id="@+id/nav_product"
+            android:icon="@drawable/baseline_assignment_24"
+            android:title="Productos" />
+
         <item
-            android:id="@+id/nav_plane"
-            android:icon="@drawable/icons8_airplane_take_off_500"
-            android:title="Plane" />
+            android:id="@+id/nav_loan"
+            android:icon="@drawable/baseline_money_24"
+            android:title="Prestamos" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/baseline_person_pin_24"
+            android:title="Perfil" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/baseline_phone_android_24"
+            android:title="Contactanos" />
+
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/baseline_build_24"
+            android:title="Soporte" />
+
+        <item
+            android:id="@+id/nav_transfer"
+            android:icon="@drawable/baseline_currency_exchange_24"
+            android:title="Transferencias" />
+
     </group>
 
-    <item android:title="Profile">
-        <menu>
-            <group android:checkableBehavior="single">
-                <item
-                    android:id="@+id/nav_login"
-                    android:icon="@drawable/login_icon"
-                    android:title="Login" />
-                <item
-                    android:id="@+id/nav_profile"
-                    android:icon="@drawable/profile_icon"
-                    android:title="Profile" />
-            </group>
-        </menu>
-    </item>
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/share_icon"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_rate"
-                android:icon="@drawable/rate_icon"
-                android:title="Rate Us" />
-        </menu>
-    </item>
     <item
         android:id="@+id/nav_logout"
-        android:icon="@drawable/nav_logout"
+        android:icon="@drawable/baseline_turn_left_24"
         android:title="Logout" />
 
 </menu>
