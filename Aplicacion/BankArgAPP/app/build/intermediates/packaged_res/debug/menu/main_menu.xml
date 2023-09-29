@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_house_24"
+            android:title="Inicio" />
+
+        <item
+            android:id="@+id/nav_banking"
+            android:icon="@drawable/baseline_account_balance_24"
+            android:title="Home Banking" />
+
+        <item
+            android:id="@+id/nav_product"
+            android:icon="@drawable/baseline_assignment_24"
+            android:title="Productos" />
+
+        <item
+            android:id="@+id/nav_loan"
+            android:icon="@drawable/baseline_money_24"
+            android:title="Prestamos" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/baseline_person_pin_24"
+            android:title="Perfil" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/baseline_phone_android_24"
+            android:title="Contactanos" />
+
+        <item
+            android:id="@+id/nav_support"
+            android:icon="@drawable/baseline_build_24"
+            android:title="Soporte" />
+
+        <item
+            android:id="@+id/nav_transfer"
+            android:icon="@drawable/baseline_currency_exchange_24"
+            android:title="Transferencias" />
+
+    </group>
+
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/baseline_turn_left_24"
+        android:title="Logout" />
+
+</menu>

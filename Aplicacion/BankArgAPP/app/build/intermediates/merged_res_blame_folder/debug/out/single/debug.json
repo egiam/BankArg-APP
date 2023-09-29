@@ -1,0 +1,254 @@
+[
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\layout_fragment_transfer.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\layout\\fragment_transfer.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\layout_activity_transfer.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\layout\\activity_transfer.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_borde_redondeado.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\borde_redondeado.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_baseline_menu_24.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\baseline_menu_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\font_poppins.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\font\\poppins.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_baseline_house_24.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\baseline_house_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_baseline_keyboard_arrow_right_24.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\baseline_keyboard_arrow_right_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\layout_activity_home.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\layout_fragment_product.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\layout\\fragment_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_rectangle_2.png.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\rectangle_2.png"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_baseline_person_pin_24.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\baseline_person_pin_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_logo_no_background_3.png.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\logo_no_background_3.png"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\layout_activity_support.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\layout\\activity_support.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\font_poppins_semi_bold.ttf.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\font\\poppins_semi_bold.ttf"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\menu_main_menu.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\menu\\main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\font_poppins_regular.ttf.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\font\\poppins_regular.ttf"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_baseline_phone_android_24.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\baseline_phone_android_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\layout_activity_perfil.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\layout\\activity_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\layout_fragment_contact.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\layout\\fragment_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_baseline_person_4_24.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\baseline_person_4_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_baseline_money_24.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\baseline_money_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_logo_no_background_1.png.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\logo_no_background_1.png"
+    },
+    {
+        "merged": "com.lalita.bankargapp-merged_res-28:/layout_activity_perfil.xml.flat",
+        "source": "com.lalita.bankargapp-main-30:/layout/activity_perfil.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\layout_fragment_loan.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\layout\\fragment_loan.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_custom_edittext.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\custom_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\layout_activity_loan.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\layout\\activity_loan.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\layout_activity_contact.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\layout\\activity_contact.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_baseline_lock_person_24.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\baseline_lock_person_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\layout_fragment_banking.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\layout\\fragment_banking.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_baseline_currency_exchange_24.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\baseline_currency_exchange_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_baseline_build_24.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\baseline_build_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_baseline_turn_left_24.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\baseline_turn_left_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_baseline_assignment_24.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\baseline_assignment_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_logo_no_background_2.png.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\logo_no_background_2.png"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\layout_header.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\layout\\header.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_inventory_2.png.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\inventory_2.png"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_vector.png.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\vector.png"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_baseline_monetization_on_24.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\baseline_monetization_on_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\layout_activity_banking.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\layout\\activity_banking.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_baseline_content_copy_24.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\baseline_content_copy_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\layout_activity_product.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\layout\\activity_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\layout_fragment_support.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\layout\\fragment_support.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_baseline_person_24.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\baseline_person_24.xml"
+    },
+    {
+        "merged": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-merged_res-28:\\drawable_baseline_account_balance_24.xml.flat",
+        "source": "C:\\Users\\ezegi\\.gradle\\daemon\\8.0\\com.lalita.bankargapp-main-30:\\drawable\\baseline_account_balance_24.xml"
+    }
+]

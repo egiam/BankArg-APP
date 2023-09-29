@@ -1,0 +1,140 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.lalita.bankargapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\ezegi\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.lalita.bankargapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\ezegi\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\ezegi\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.lalita.bankargapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\ezegi\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\ezegi\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:5:5-51:19
+18        android:allowBackup="true"
+18-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] C:\Users\ezegi\.gradle\caches\transforms-3\28a7af075d5af218c19b63a2f54b1523\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.BankArgAPP" >
+29-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:13:9-48
+30        <activity
+30-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:15:9-17:40
+31            android:name="com.lalita.bankargapp.TransferActivity"
+31-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:16:13-45
+32            android:exported="false" />
+32-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:17:13-37
+33        <activity
+33-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:18:9-20:40
+34            android:name="com.lalita.bankargapp.SupportActivity"
+34-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:19:13-44
+35            android:exported="false" />
+35-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:20:13-37
+36        <activity
+36-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:21:9-23:40
+37            android:name="com.lalita.bankargapp.ContactActivity"
+37-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:22:13-44
+38            android:exported="false" />
+38-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:23:13-37
+39        <activity
+39-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:24:9-26:40
+40            android:name="com.lalita.bankargapp.LoanActivity"
+40-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:25:13-41
+41            android:exported="false" />
+41-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:26:13-37
+42        <activity
+42-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:27:9-29:40
+43            android:name="com.lalita.bankargapp.ProductActivity"
+43-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:28:13-44
+44            android:exported="false" />
+44-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:29:13-37
+45        <activity
+45-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:30:9-32:40
+46            android:name="com.lalita.bankargapp.BankingActivity"
+46-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:31:13-44
+47            android:exported="false" />
+47-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:32:13-37
+48        <activity
+48-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:33:9-35:40
+49            android:name="com.lalita.bankargapp.HomeActivity"
+49-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:34:13-41
+50            android:exported="false" />
+50-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:35:13-37
+51        <activity
+51-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:36:9-38:40
+52            android:name="com.lalita.bankargapp.PerfilActivity"
+52-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:37:13-43
+53            android:exported="false" />
+53-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:38:13-37
+54        <activity
+54-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:39:9-41:40
+55            android:name="com.lalita.bankargapp.LoginActivity"
+55-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:40:13-42
+56            android:exported="false" />
+56-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:41:13-37
+57        <activity
+57-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:42:9-50:20
+58            android:name="com.lalita.bankargapp.MainActivity"
+58-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:43:13-41
+59            android:exported="true" >
+59-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:44:13-36
+60            <intent-filter>
+60-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:45:13-49:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:46:17-69
+61-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:46:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:48:17-77
+63-->C:\Users\ezegi\OneDrive\Documentos\Educacion\ISPC\ISPC\BankArg-APP\FrontEnd\BankArgAPP\app\src\main\AndroidManifest.xml:48:27-74
+64            </intent-filter>
+65        </activity>
+66
+67        <provider
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ezegi\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+68            android:name="androidx.startup.InitializationProvider"
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ezegi\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+69            android:authorities="com.lalita.bankargapp.androidx-startup"
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ezegi\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+70            android:exported="false" >
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ezegi\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+71            <meta-data
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ezegi\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+72-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ezegi\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+73                android:value="androidx.startup" />
+73-->[androidx.emoji2:emoji2:1.2.0] C:\Users\ezegi\.gradle\caches\transforms-3\9ec162b5cb5dad7a953e18733a42dbca\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ezegi\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+75                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+75-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ezegi\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+76                android:value="androidx.startup" />
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\ezegi\.gradle\caches\transforms-3\4eb4b953398cff91e70e367f7f0f5a04\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+77        </provider>
+78    </application>
+79
+80</manifest>
