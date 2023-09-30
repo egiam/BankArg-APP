@@ -28,7 +28,7 @@ public class TransferActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_transfer);
 
         /*---------------------Hooks------------------------*/
         drawerLayout=findViewById(R.id.drawer_layout);
