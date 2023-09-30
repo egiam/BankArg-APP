@@ -7,8 +7,9 @@
 
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".ContactActivity"
-    tools:openDrawer="start">
+    tools:context=".ContactActivity">
+
+    <!--    tools:openDrawer="start"-->
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -54,7 +55,180 @@
                 app:layout_constraintEnd_toEndOf="@+id/linearLayout"
                 app:layout_constraintTop_toTopOf="@+id/linearLayout" />
 
+
             <!--            HEADER END -->
+
+
+            <TextView
+                android:id="@+id/env_anos_un"
+                android:layout_width="468dp"
+                android:layout_height="150dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Envianos un Correo"
+                android:textStyle="bold"
+                android:textAppearance="@style/env_anos_un"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <View
+                android:id="@+id/vista_contacto"
+                android:layout_width="match_parent"
+                android:layout_height="796dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginEnd="24dp"
+                android:background="@color/col4"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/env_anos_un" />
+
+
+            <EditText
+                android:id="@+id/nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="64dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp"
+                android:hint="Nombre"
+                android:minHeight="60dp"
+                android:padding="8dp"
+                android:textColor="@color/col1"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textSize="24dp"
+                app:layout_constraintEnd_toEndOf="@+id/vista_contacto"
+                app:layout_constraintStart_toStartOf="@+id/vista_contacto"
+                app:layout_constraintTop_toBottomOf="@+id/env_anos_un" />
+
+            <EditText
+                android:id="@+id/apellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="64dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp"
+                android:hint="Apellido"
+                android:minHeight="60dp"
+                android:padding="8dp"
+                android:textColor="@color/col1"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textSize="24dp"
+                app:layout_constraintEnd_toEndOf="@+id/vista_contacto"
+                app:layout_constraintStart_toStartOf="@+id/vista_contacto"
+                app:layout_constraintTop_toBottomOf="@+id/nombre" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="64dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_mail_outline_24"
+                android:drawablePadding="8dp"
+                android:hint="Email"
+                android:minHeight="60dp"
+                android:padding="8dp"
+                android:textColor="@color/col1"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textSize="24dp"
+                app:layout_constraintEnd_toEndOf="@+id/vista_contacto"
+                app:layout_constraintStart_toStartOf="@+id/vista_contacto"
+                app:layout_constraintTop_toBottomOf="@+id/apellido" />
+
+
+            <TextView
+                android:id="@+id/lbl_mensaje"
+                android:layout_width="175dp"
+                android:layout_height="52dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="16dp"
+                android:gravity="start|bottom"
+                android:text="Mensaje"
+                android:textAppearance="@style/mensaje"
+                android:textSize="27dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/vista_contacto"
+                app:layout_constraintTop_toBottomOf="@+id/email" />
+
+            <EditText
+                android:id="@+id/mensaje"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="64dp"
+                android:layout_marginEnd="64dp"
+                android:background="@drawable/custom_edittext"
+                android:drawablePadding="8dp"
+                android:minHeight="250dp"
+                android:padding="8dp"
+                android:textColor="@color/col1"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textSize="24dp"
+                app:layout_constraintEnd_toEndOf="@+id/vista_contacto"
+                app:layout_constraintStart_toStartOf="@+id/vista_contacto"
+                app:layout_constraintTop_toBottomOf="@+id/lbl_mensaje" />
+
+            <Button
+                android:id="@+id/Enviar"
+                android:layout_width="260dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="50dp"
+                android:backgroundTint="@color/col1"
+                android:text="Enviar"
+                android:textSize="26dp"
+                android:textColor="@color/col6"
+                app:cornerRadius="10dp"
+                app:layout_constraintBottom_toTopOf="@+id/rectangle_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/vista_contacto" />
+
+
+            <!--            FOOTER START -->
+            <View
+                android:id="@+id/rectangle_2"
+                android:layout_width="fill_parent"
+                android:layout_height="57dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="#E7F6F2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/bankarg_des"
+                android:layout_width="433dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/bankarg_des"
+                android:textAppearance="@style/bankarg_des"
+                android:textSize="21sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Enviar"
+                app:layout_constraintTop_toTopOf="@+id/rectangle_2" />
+            <!-- FOOTER END -->
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

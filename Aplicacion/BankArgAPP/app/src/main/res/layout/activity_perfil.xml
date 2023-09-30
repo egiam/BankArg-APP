@@ -8,7 +8,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     tools:context=".PerfilActivity"
-    tools:openDrawer="start">
+    tools:openDrawer="">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -312,7 +312,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/CVU" />
 
             <Button
-                android:id="@+id/Editar"
+                android:id="@+id/Enviar"
                 android:layout_width="260dp"
                 android:layout_height="60dp"
                 android:layout_marginStart="16dp"
@@ -322,6 +322,7 @@
                 android:backgroundTint="@color/col1"
                 android:text="Editar Datos"
                 android:textSize="26dp"
+                android:textColor="@color/col6"
                 app:cornerRadius="10dp"
                 app:layout_constraintBottom_toTopOf="@+id/rectangle_2"
                 app:layout_constraintEnd_toEndOf="parent"
