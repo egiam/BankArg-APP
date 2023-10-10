@@ -7,8 +7,7 @@
 
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".ProductActivity"
-    tools:openDrawer="start">
+    tools:context=".ProductActivity">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -53,6 +52,90 @@
                 android:background="@drawable/baseline_person_pin_24"
                 app:layout_constraintEnd_toEndOf="@+id/linearLayout"
                 app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="1000dp"
+                android:foregroundGravity="center"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="102dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="100dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.496"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@mipmap/ondita_about" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Sobre Nosotros"
+                    android:textAllCaps="false"
+                    android:textSize="30sp"
+                    android:textStyle="italic"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="300dp"
+                    android:layout_height="168dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Some representative placeholder content for the three columns of text below the carousel. This is the first column"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textSize="24sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/grav"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:layout_editor_absoluteX="-44dp"
+                    tools:layout_editor_absoluteY="637dp">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <Button
+                            android:id="@+id/button"
+                            android:layout_width="200dp"
+                            android:layout_height="70dp"
+                            android:backgroundTint="#395B64"
+                            android:fontFamily="@font/poppins"
+                            android:text="Ver mas"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            app:cornerRadius="6dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <ImageView
+                            android:id="@+id/imageView7"
+                            android:layout_height="wrap_content"
+                            app:srcCompat="@drawable/baseline_keyboard_arrow_right_24"
+                            tools:layout_editor_absoluteX="261dp"
+                            tools:layout_editor_absoluteY="23dp" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
             <!--            HEADER END -->
 
