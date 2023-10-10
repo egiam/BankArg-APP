@@ -13,13 +13,11 @@ import android.util.Log;
 import android.view.MenuItem;
 
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 
-public class ProductActivity extends AppCompatActivity {
+public class SobreNosotrosActivity extends AppCompatActivity {
 
     DrawerLayout drawerLayout;
     NavigationView navigationView;
@@ -29,7 +27,7 @@ public class ProductActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_product);
+        setContentView(R.layout.activity_sobre_nosotros);
 
         /*---------------------Hooks------------------------*/
         drawerLayout=findViewById(R.id.drawer_layout);
@@ -49,7 +47,7 @@ public class ProductActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int itemId = item.getItemId();
 
-                ProductActivity activity = ProductActivity.this;
+                SobreNosotrosActivity activity = SobreNosotrosActivity.this;
                 if (itemId == R.id.nav_home) {
                     Intent intent = new Intent(activity, HomeActivity.class);
                     Log.i("MENU_DRAWER_TAG", "Home is selected");
@@ -101,15 +99,6 @@ public class ProductActivity extends AppCompatActivity {
                 return true;
             }
         });
-
-        Button btnSobreNos = (Button) findViewById(R.id.btn_sobre_nosotros);
-        btnSobreNos.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(ProductActivity.this, SobreNosActivity.class);
-                startActivity(intent);
-            }
-        });
     }
 
     @Override
@@ -129,11 +118,4 @@ public class ProductActivity extends AppCompatActivity {
             super.onBackPressed();
         }
     }
-
-//    Product
-//    public void SobreNosotros() {
-//        Intent intent = new Intent(ProductActivity.this, SobreNosotrosActivity.class);
-//        startActivity(intent);
-//    }
-
 }
