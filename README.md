@@ -45,5 +45,5 @@ BankArg repository. Universitary project (ISPC)
 * https://docs.google.com/spreadsheets/d/11NFxOZDACnIeen5MOgz6tVU_wM_sal1cWBXQvdNFUrE/edit?usp=sharing
 
 ## Video Demo Navgacion 
-*https://www.youtube.com/watch?v=gYrCypQRQHs&t=18s
+* https://www.youtube.com/watch?v=gYrCypQRQHs&t=18s
 
