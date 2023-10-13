@@ -14,4 +14,9 @@
     <string name="tu_cvu_alia">Tu CVU: \n\nAlias: \n\nTeléfono: \n\nDNI: \n\nEmail:\n</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sobre_nosotros">Sobre Nosotros</string>
+    <string name="transferencias_al_instante">Transferencias al Instante</string>
+    <string name="seguridad">Seguridad</string>
+    <string name="tu_plata_en_un_solo_lugar">Tu plata en un solo lugar</string>
+    <string name="lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_fusce_ultricies_libero_dui_sit_amet_fringilla_enim_mollis_a_cras_volutpat_pretium_commodo_proin_tempus_malesuada_massa_sit_amet_mattis_magna_accumsan_hendrerit_curabitur_ultrices_elit_mauris_at_laoreet_ante_egestas_id">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ultricies libero dui, sit amet fringilla enim mollis a. Cras volutpat pretium commodo. Proin tempus malesuada massa, sit amet mattis magna accumsan hendrerit. Curabitur ultrices elit mauris, at laoreet ante egestas id.</string>
 </resources>
