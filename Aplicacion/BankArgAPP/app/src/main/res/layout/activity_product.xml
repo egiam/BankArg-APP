@@ -56,7 +56,7 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="3000dp"
+                android:layout_height="3200dp"
                 android:background="#FFFFFF"
                 android:backgroundTint="#FFFFFF"
                 android:foregroundGravity="center"
@@ -153,16 +153,6 @@
 
                 </androidx.cardview.widget.CardView>
 
-                <ImageView
-                    android:id="@+id/imageView4"
-                    android:layout_width="250dp"
-                    android:layout_height="250dp"
-                    android:layout_marginTop="100dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/grav2"
-                    tools:srcCompat="@mipmap/ondita_about" />
-
                 <TextView
                     android:id="@+id/textView9"
                     android:layout_width="wrap_content"
@@ -170,6 +160,7 @@
                     android:layout_marginTop="32dp"
                     android:fontFamily="@font/poppins"
                     android:text="Nuestros Productos"
+                    android:textColor="#000000"
                     android:textSize="30sp"
                     android:textStyle="italic"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -178,14 +169,14 @@
 
                 <TextView
                     android:id="@+id/textView10"
-                    android:layout_width="296dp"
-                    android:layout_height="193dp"
+                    android:layout_width="301dp"
+                    android:layout_height="201dp"
                     android:layout_marginTop="10dp"
                     android:fontFamily="@font/poppins"
                     android:text="Another exciting bit of representative placeholder content. This time, we've moved on to the second column."
                     android:textAlignment="center"
+                    android:textColor="#000000"
                     android:textSize="24sp"
-                    android:textStyle="bold"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView9" />
@@ -209,6 +200,7 @@
                         android:backgroundTint="#395B64"
                         android:fontFamily="@font/poppins"
                         android:text="Ver mas"
+                        android:textColor="#FFFFFF"
                         android:textSize="20sp"
                         android:textStyle="bold"
                         app:cornerRadius="6dp"
@@ -223,7 +215,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="16dp"
-                        android:src="@tools:sample/avatars"
                         app:layout_constraintBottom_toBottomOf="@+id/button"
                         app:layout_constraintEnd_toEndOf="@+id/button"
                         app:layout_constraintTop_toTopOf="@+id/button"
@@ -248,6 +239,7 @@
                     android:layout_marginTop="32dp"
                     android:fontFamily="@font/poppins"
                     android:text="Transferencias"
+                    android:textColor="#000000"
                     android:textSize="30sp"
                     android:textStyle="italic"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -262,8 +254,8 @@
                     android:fontFamily="@font/poppins"
                     android:text="And lastly this, the third column of representative placeholder content."
                     android:textAlignment="center"
-                    android:textSize="20sp"
-                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView11" />
@@ -272,6 +264,7 @@
                     android:id="@+id/constraintLayout3"
                     android:layout_width="409dp"
                     android:layout_height="100dp"
+                    android:layout_marginTop="25dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/textView13">
@@ -283,6 +276,7 @@
                         android:backgroundTint="#395B64"
                         android:fontFamily="@font/poppins"
                         android:text="Ver mas"
+                        android:textColor="#FFFFFF"
                         android:textSize="20sp"
                         android:textStyle="italic"
                         app:cornerRadius="6sp"
@@ -331,7 +325,8 @@
                         android:layout_marginStart="30dp"
                         android:fontFamily="@font/poppins"
                         android:text="Tu Perfil"
-                        android:textSize="24sp"
+                        android:textColor="#000000"
+                        android:textSize="30sp"
                         android:textStyle="italic"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintEnd_toEndOf="parent"
@@ -348,6 +343,212 @@
                         app:layout_constraintTop_toTopOf="parent"
                         app:srcCompat="@drawable/baseline_person_24" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="256dp"
+                    android:layout_height="66dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Explora tu perfil y revisa tu información personal"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/constraintLayout4" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="200dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#395B64"
+                    android:fontFamily="@font/poppins"
+                    android:text="Perfil"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="6sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout5"
+                    android:layout_width="409dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="50dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button3">
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginEnd="5dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/textView15"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/baseline_money_24" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Prestamos"
+                        android:textColor="#000000"
+                        android:textSize="30sp"
+                        android:textStyle="italic"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="312dp"
+                    android:layout_height="68dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="¿Estas corto de dinero? Pedí un préstamo ya con facilidad"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/constraintLayout5" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="200dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#395B64"
+                    android:fontFamily="@font/poppins"
+                    android:text="Prestamos"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="6sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/constraintLayout6"
+                    android:layout_width="409dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="50dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button4">
+
+                    <ImageView
+                        android:id="@+id/imageView15"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginEnd="5dp"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toStartOf="@+id/textView17"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/baseline_build_242" />
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Soporte"
+                        android:textColor="#000000"
+                        android:textSize="30sp"
+                        android:textStyle="italic"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/textView18"
+                    android:layout_width="324dp"
+                    android:layout_height="66dp"
+                    android:layout_marginTop="15dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="¿Necesitas ayuda?  Contacta con nosotros las 24 horas"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/constraintLayout6" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="200dp"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="#395B64"
+                    android:fontFamily="@font/poppins"
+                    android:text="Soporte"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="italic"
+                    app:cornerRadius="6sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardView5"
+                    android:layout_width="250dp"
+                    android:layout_height="3dp"
+                    android:layout_marginTop="50dp"
+                    app:cardBackgroundColor="#C7C8C9"
+                    app:cardCornerRadius="5dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+                <View
+                    android:id="@+id/view2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:background="#E7F6F2"
+                    android:backgroundTint="#E7F6F2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bankarg_des"
+                    android:textColor="#000000"
+                    app:layout_constraintBottom_toBottomOf="@+id/view2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/view2"
+                    app:layout_constraintTop_toTopOf="@+id/view2" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    android:layout_marginTop="100dp"
+                    app:layout_constraintBottom_toTopOf="@+id/textView9"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/grav2"
+                    app:srcCompat="@mipmap/ondita_about" />
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 

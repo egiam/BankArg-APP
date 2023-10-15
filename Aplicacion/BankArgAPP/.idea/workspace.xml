@@ -10,78 +10,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01698c86-09c7-45f0-891b-38ab5d695451" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-img/products_claro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-img/sobre_nos_claro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/sobre_nosotros.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/sobre_nosotros_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/transferencias.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/transferencias_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/sobre_nosotros.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/sobre_nosotros_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/sobre_nosotros_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/transferencias.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/transferencias_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/transferencias_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/sobre_nosotros.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/sobre_nosotros_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/sobre_nosotros_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/transferencias.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/transferencias_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/transferencias_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/sobre_nosotros.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/sobre_nosotros_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/sobre_nosotros_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/transferencias.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/transferencias_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/transferencias_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/sobre_nosotros.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/sobre_nosotros_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/sobre_nosotros_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/transferencias.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/transferencias_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/transferencias_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/sobre_nosotros.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/sobre_nosotros_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/sobre_nosotros_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/transferencias.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/transferencias_foreground.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/transferencias_round.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/sobre_nosotros_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/transferencias_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/sobre_nosotros-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/transferencias-playstore.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_build_242.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/ondita_about-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/ondita_about-playstore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_money_24.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/baseline_money_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_perfil.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_perfil.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_product.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_product.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sobre_nosotros.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sobre_nosotros.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ondita_about.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ondita_about.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ondita_about_foreground.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ondita_about_foreground.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ondita_about_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ondita_about_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ondita_about.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ondita_about.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ondita_about_foreground.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ondita_about_foreground.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ondita_about_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ondita_about_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ondita_about.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ondita_about.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ondita_about_foreground.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ondita_about_foreground.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ondita_about_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ondita_about_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ondita_about.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ondita_about.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ondita_about_foreground.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ondita_about_foreground.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ondita_about_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ondita_about_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ondita_about.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ondita_about.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ondita_about_foreground.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ondita_about_foreground.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ondita_about_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ondita_about_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[ZE222SM6GC]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
