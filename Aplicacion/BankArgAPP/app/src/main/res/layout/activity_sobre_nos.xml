@@ -66,16 +66,20 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="1900dp">
+                android:layout_height="1900dp"
+                app:layout_constraintTop_toTopOf="parent">
 
                 <ImageButton
                     android:id="@+id/imageButton8"
                     android:layout_width="411dp"
                     android:layout_height="940dp"
+                    android:layout_marginTop="102dp"
                     android:background="#2C3333"
                     android:backgroundTint="#2C3333"
                     android:src="@android:drawable/btn_star"
-                    tools:layout_editor_absoluteY="102dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
                     tools:src="@drawable/rectangle_2" />
 
                 <ImageView
@@ -84,17 +88,19 @@
                     android:layout_height="492dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:srcCompat="@drawable/logo_no_background_1"
-                    tools:layout_editor_absoluteY="102dp" />
+                    app:layout_constraintTop_toTopOf="@+id/imageButton8"
+                    app:srcCompat="@drawable/logo_no_background_1" />
 
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardView"
                     android:layout_width="304dp"
                     android:layout_height="96dp"
+                    android:layout_marginTop="33dp"
                     app:cardBackgroundColor="#E7F6F2"
                     app:cardCornerRadius="50dp"
-                    tools:layout_editor_absoluteX="54dp"
-                    tools:layout_editor_absoluteY="627dp">
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView2">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
@@ -111,16 +117,19 @@
                             android:textSize="24sp"
                             android:textStyle="bold"
                             app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            tools:layout_editor_absoluteX="74dp" />
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
 
                         <ImageView
                             android:id="@+id/imageView6"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            app:srcCompat="@drawable/baseline_account_balance_wallet_24"
-                            tools:layout_editor_absoluteX="24dp"
-                            tools:layout_editor_absoluteY="23dp" />
+                            android:layout_marginStart="8dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/baseline_account_balance_wallet_24" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
                 </androidx.cardview.widget.CardView>
@@ -129,10 +138,12 @@
                     android:id="@+id/cardView3"
                     android:layout_width="304dp"
                     android:layout_height="96dp"
+                    android:layout_marginTop="24dp"
                     app:cardBackgroundColor="#E7F6F2"
                     app:cardCornerRadius="50dp"
-                    tools:layout_editor_absoluteX="54dp"
-                    tools:layout_editor_absoluteY="755dp">
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
@@ -142,21 +153,25 @@
                             android:id="@+id/textView2"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_marginEnd="73dp"
                             android:fontFamily="@font/poppins"
                             android:text="Seguridad"
                             android:textSize="24sp"
                             android:textStyle="bold"
                             app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            tools:layout_editor_absoluteX="107dp" />
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
 
                         <ImageView
                             android:id="@+id/imageView8"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            app:srcCompat="@drawable/baseline_account_balance_24_black"
-                            tools:layout_editor_absoluteX="30dp"
-                            tools:layout_editor_absoluteY="23dp" />
+                            android:layout_marginStart="8dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView2"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/baseline_account_balance_24_black" />
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -165,10 +180,12 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="304dp"
                     android:layout_height="92dp"
+                    android:layout_marginTop="24dp"
                     app:cardBackgroundColor="#E7F6F2"
                     app:cardCornerRadius="50dp"
-                    tools:layout_editor_absoluteX="53dp"
-                    tools:layout_editor_absoluteY="883dp">
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cardView3">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
@@ -183,16 +200,20 @@
                             android:textAlignment="center"
                             android:textSize="24sp"
                             android:textStyle="bold"
-                            tools:layout_editor_absoluteX="61dp"
-                            tools:layout_editor_absoluteY="11dp" />
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
 
                         <ImageView
                             android:id="@+id/imageView9"
                             android:layout_width="50dp"
                             android:layout_height="50dp"
-                            app:srcCompat="@drawable/baseline_monetization_on_24"
-                            tools:layout_editor_absoluteX="16dp"
-                            tools:layout_editor_absoluteY="21dp" />
+                            android:layout_marginStart="24dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textView5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/baseline_monetization_on_24" />
                     </androidx.constraintlayout.widget.ConstraintLayout>
                 </androidx.cardview.widget.CardView>
 
