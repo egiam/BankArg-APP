@@ -55,11 +55,63 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="1200dp"
-                android:layout_marginTop="100dp"
+                android:layout_height="3700dp"
+                android:layout_marginTop="50dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+                <View
+                    android:id="@+id/view7"
+                    android:layout_width="350dp"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="100dp"
+                    android:background="#F8F9FA"
+                    app:circularflow_angles="10sp"
+                    app:circularflow_defaultRadius="10sp"
+                    app:circularflow_radiusInDP="10sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+                <View
+                    android:id="@+id/view6"
+                    android:layout_width="350dp"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="100dp"
+                    android:background="#F8F9FA"
+                    app:circularflow_angles="10sp"
+                    app:circularflow_defaultRadius="10sp"
+                    app:circularflow_radiusInDP="10sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+                <View
+                    android:id="@+id/view5"
+                    android:layout_width="350dp"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="100dp"
+                    android:background="#F8F9FA"
+                    app:circularflow_angles="10sp"
+                    app:circularflow_defaultRadius="10sp"
+                    app:circularflow_radiusInDP="10sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+                <View
+                    android:id="@+id/view4"
+                    android:layout_width="350dp"
+                    android:layout_height="500dp"
+                    android:layout_marginTop="100dp"
+                    android:background="#F8F9FA"
+                    app:circularflow_angles="10sp"
+                    app:circularflow_defaultRadius="10sp"
+                    app:circularflow_radiusInDP="10sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/button6" />
 
                 <View
                     android:id="@+id/view3"
@@ -106,12 +158,195 @@
                     android:backgroundTint="#395B64"
                     android:fontFamily="@font/poppins"
                     android:text="Home Banking"
+                    android:textColor="#FFFFFF"
                     android:textSize="24sp"
                     android:textStyle="bold"
                     app:cornerRadius="7sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+                <TextView
+                    android:id="@+id/textView21"
+                    android:layout_width="303dp"
+                    android:layout_height="127dp"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Podrás agregar servicios, hacer pagos únicos y recibir alertas de vencimientos"
+                    android:textAlignment="center"
+                    android:textColor="#767676"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/view4"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    app:layout_constraintTop_toTopOf="@+id/view4" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/view4"
+                    app:layout_constraintEnd_toEndOf="@+id/view4"
+                    app:layout_constraintStart_toStartOf="@+id/view4"
+                    app:layout_constraintTop_toBottomOf="@+id/textView21"
+                    app:srcCompat="@mipmap/pago_foreground" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="350dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="50dp"
+                    android:backgroundTint="#395B64"
+                    android:fontFamily="@font/poppins"
+                    android:text="Pagos"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="7sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view4" />
+
+                <TextView
+                    android:id="@+id/textView22"
+                    android:layout_width="305dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="¿Te quedaste sin efectivo? No te preocupes, te préstamos en cómodas cuotas y si acreditas tu sueldo con nosotros accedes a tasas preferenciales"
+                    android:textAlignment="center"
+                    android:textColor="#767676"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/view5"
+                    app:layout_constraintStart_toStartOf="@+id/view5"
+                    app:layout_constraintTop_toTopOf="@+id/view5" />
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/view5"
+                    app:layout_constraintEnd_toEndOf="@+id/view5"
+                    app:layout_constraintStart_toStartOf="@+id/view5"
+                    app:layout_constraintTop_toBottomOf="@+id/textView22"
+                    app:srcCompat="@mipmap/prestamo" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="350dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="50dp"
+                    android:backgroundTint="#395B64"
+                    android:fontFamily="@font/poppins"
+                    android:text="Prestamos"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="7sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view5" />
+
+                <TextView
+                    android:id="@+id/textView23"
+                    android:layout_width="305dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Realizar tus transferencias nunca fue tan fácil"
+                    android:textAlignment="center"
+                    android:textColor="#767676"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/view6"
+                    app:layout_constraintStart_toStartOf="@+id/view6"
+                    app:layout_constraintTop_toTopOf="@+id/view6" />
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/view6"
+                    app:layout_constraintEnd_toEndOf="@+id/view6"
+                    app:layout_constraintStart_toStartOf="@+id/view6"
+                    app:layout_constraintTop_toBottomOf="@+id/textView23"
+                    app:srcCompat="@mipmap/transferencia" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="350dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="50dp"
+                    android:backgroundTint="#395B64"
+                    android:fontFamily="@font/poppins"
+                    android:text="Transferencias"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="7sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view6" />
+
+                <TextView
+                    android:id="@+id/textView24"
+                    android:layout_width="305dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:fontFamily="@font/poppins"
+                    android:text="Todas tus transacciones se validarán con un token para mayor seguridad"
+                    android:textAlignment="center"
+                    android:textColor="#767676"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="@+id/view7"
+                    app:layout_constraintStart_toStartOf="@+id/view7"
+                    app:layout_constraintTop_toTopOf="@+id/view7" />
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="250dp"
+                    android:layout_height="250dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/view7"
+                    app:layout_constraintEnd_toEndOf="@+id/view7"
+                    app:layout_constraintStart_toStartOf="@+id/view7"
+                    app:layout_constraintTop_toBottomOf="@+id/textView24"
+                    app:srcCompat="@mipmap/pago_foreground" />
+
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="350dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="50dp"
+                    android:backgroundTint="#395B64"
+                    android:fontFamily="@font/poppins"
+                    android:text="Validaciones"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="7sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view7" />
+
+                <View
+                    android:id="@+id/view8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="57dp"
+                    android:background="#E7F6F2"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/bankarg_des"
+                    android:textColor="#000000"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="@+id/view8"
+                    app:layout_constraintEnd_toEndOf="@+id/view8"
+                    app:layout_constraintStart_toStartOf="@+id/view8"
+                    app:layout_constraintTop_toTopOf="@+id/view8" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <!--            HEADER END -->
