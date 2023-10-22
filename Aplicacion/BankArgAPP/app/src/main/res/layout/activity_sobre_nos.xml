@@ -270,13 +270,13 @@
 
                 <ImageView
                     android:id="@+id/imageView16"
-                    android:layout_width="250dp"
-                    android:layout_height="250dp"
-                    android:layout_marginTop="100dp"
+                    android:layout_width="350dp"
+                    android:layout_height="350dp"
+                    android:layout_marginTop="50dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/imageButton8"
-                    app:srcCompat="@mipmap/ondita_about" />
+                    app:srcCompat="@mipmap/banking_sobre_nos" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
 
