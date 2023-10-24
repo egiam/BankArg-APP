@@ -13,6 +13,8 @@ import android.util.Log;
 import android.view.MenuItem;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
@@ -27,7 +29,7 @@ public class ProductActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_product);
+        setContentView(R.layout.activity_home);
 
         /*---------------------Hooks------------------------*/
         drawerLayout=findViewById(R.id.drawer_layout);
@@ -99,6 +101,15 @@ public class ProductActivity extends AppCompatActivity {
                 return true;
             }
         });
+
+        Button btnSobreNos = (Button) findViewById(R.id.btn_sobre_nosotros);
+        btnSobreNos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(ProductActivity.this, SobreNosActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 
     @Override
@@ -118,4 +129,11 @@ public class ProductActivity extends AppCompatActivity {
             super.onBackPressed();
         }
     }
+
+//    Product
+//    public void SobreNosotros() {
+//        Intent intent = new Intent(ProductActivity.this, SobreNosotrosActivity.class);
+//        startActivity(intent);
+//    }
+
 }

@@ -13,6 +13,9 @@
         android:theme="@style/Theme.BankArgAPP"
         tools:targetApi="31">
         <activity
+            android:name=".SobreNosActivity"
+            android:exported="false" />
+        <activity
             android:name=".Mantenimiento"
             android:exported="false" />
         <activity
