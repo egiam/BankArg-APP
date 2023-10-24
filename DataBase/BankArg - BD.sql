@@ -48,6 +48,7 @@ CREATE TABLE Usuarios (
   id_usuario int NOT NULL AUTO_INCREMENT,
   nombre varchar(120),
   apellido varchar(120),
+  password varchar(150),
   id_tipo_doc int NOT NULL,
   nro_doc varchar(20), -- Número de documento
   cod_localidad int NOT NULL,
