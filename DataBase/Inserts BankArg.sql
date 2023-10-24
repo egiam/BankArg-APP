@@ -684,32 +684,32 @@ insert into Sexos (tipo) values ('Mujer');
 insert into Sexos (tipo) values ('Otro'); -- ID:3
 
 -- Insertar usuarios
-INSERT INTO Usuarios (nombre, apellido, id_tipo_doc, nro_doc, cod_localidad, nro_calle, calle, fecha_nac, id_tipo_sexo)
+INSERT INTO Usuarios (nombre, apellido, password, id_tipo_doc, nro_doc, cod_localidad, nro_calle, calle, fecha_nac, id_tipo_sexo)
 VALUES
-  ('Ana', 'López', 1, '12345678', 1, 101, 'Calle Principal', '1990-04-15', 2),
-  ('Juan', 'Martínez', 2, '87654321', 2, 202, 'Avenida Secundaria', '1985-07-20', 1),
-  ('María', 'González', 1, '98765432', 3, 303, 'Calle del Centro', '1992-02-10', 2),
-  ('Carlos', 'Rodríguez', 2, '56789012', 1, 404, 'Calle Residencial', '1998-05-05', 1),
-  ('Luisa', 'Sánchez', 1, '34567890', 2, 505, 'Avenida Principal', '1987-11-30', 2),
-  ('Javier', 'Pérez', 2, '23456789', 3, 606, 'Calle del Parque', '1994-08-25', 1),
-  ('Sofía', 'Fernández', 1, '43210987', 1, 707, 'Avenida Central', '1991-01-18', 2),
-  ('Diego', 'Ramírez', 2, '54321098', 2, 808, 'Calle Comercial', '1996-03-02', 1),
-  ('Lucía', 'Torres', 1, '67890123', 3, 909, 'Avenida Residencial', '1988-06-10', 2),
-  ('Mateo', 'Luna', 2, '45678901', 1, 1010, 'Calle de la Plaza', '1993-12-08', 1);
-  
+  ('Ana', 'López', 12345, 1, '12345678', 1, 101, 'Calle Principal', '1990-04-15', 2),
+  ('Juan', 'Martínez', 12345, 2, '87654321', 2, 202, 'Avenida Secundaria', '1985-07-20', 1),
+  ('María', 'González', 12345, 1, '98765432', 3, 303, 'Calle del Centro', '1992-02-10', 2),
+  ('Carlos', 'Rodríguez', 12345, 2, '56789012', 1, 404, 'Calle Residencial', '1998-05-05', 1),
+  ('Luisa', 'Sánchez', 12345, 1, '34567890', 2, 505, 'Avenida Principal', '1987-11-30', 2),
+  ('Javier', 'Pérez', 12345, 2, '23456789', 3, 606, 'Calle del Parque', '1994-08-25', 1),
+  ('Sofía', 'Fernández', 12345, 1, '43210987', 1, 707, 'Avenida Central', '1991-01-18', 2),
+  ('Diego', 'Ramírez', 12345, 2, '54321098', 2, 808, 'Calle Comercial', '1996-03-02', 1),
+  ('Lucía', 'Torres', 12345, 1, '67890123', 3, 909, 'Avenida Residencial', '1988-06-10', 2),
+  ('Mateo', 'Luna', 12345, 2, '45678901', 1, 1010, 'Calle de la Plaza', '1993-12-08', 1);
+
 -- Insertar usuarios adicionales (Empleados)
-INSERT INTO Usuarios (nombre, apellido, id_tipo_doc, nro_doc, cod_localidad, nro_calle, calle, fecha_nac, id_tipo_sexo)
+INSERT INTO Usuarios (nombre, apellido, password, id_tipo_doc, nro_doc, cod_localidad, nro_calle, calle, fecha_nac, id_tipo_sexo)
 VALUES
-  ('Elena', 'Mendoza', 1, '76543210', 2, 1111, 'Calle Nueva', '1995-09-12', 2),
-  ('Pedro', 'Díaz', 2, '34567801', 1, 1212, 'Avenida Principal', '1989-03-08', 1),
-  ('Lorena', 'Vargas', 1, '23456789', 3, 1313, 'Calle del Sol', '1997-07-22', 2),
-  ('Ricardo', 'Hernández', 2, '67890123', 1, 1414, 'Calle de la Playa', '1990-11-15', 1),
-  ('Laura', 'Paz', 1, '45678901', 2, 1515, 'Avenida del Bosque', '1994-01-25', 2),
-  ('Gabriel', 'Flores', 2, '54321098', 3, 1616, 'Calle de las Flores', '1993-06-30', 1),
-  ('Valentina', 'Rojas', 1, '98765432', 1, 1717, 'Avenida de la Montaña', '1986-04-05', 2),
-  ('Alejandro', 'Soto', 2, '87654321', 2, 1818, 'Calle del Río', '1999-02-28', 1),
-  ('Mariana', 'Ortega', 1, '12345678', 3, 1919, 'Avenida del Mar', '1991-08-14', 2),
-  ('Matías', 'López', 2, '32109876', 1, 2020, 'Calle del Centro', '1987-12-03', 1);
+  ('Elena', 'Mendoza', 12345, 1, '76543210', 2, 1111, 'Calle Nueva', '1995-09-12', 2),
+  ('Pedro', 'Díaz', 12345, 2, '34567801', 1, 1212, 'Avenida Principal', '1989-03-08', 1),
+  ('Lorena', 'Vargas', 12345, 1, '23456789', 3, 1313, 'Calle del Sol', '1997-07-22', 2),
+  ('Ricardo', 'Hernández', 12345, 2, '67890123', 1, 1414, 'Calle de la Playa', '1990-11-15', 1),
+  ('Laura', 'Paz', 12345, 1, '45678901', 2, 1515, 'Avenida del Bosque', '1994-01-25', 2),
+  ('Gabriel', 'Flores', 12345, 2, '54321098', 3, 1616, 'Calle de las Flores', '1993-06-30', 1),
+  ('Valentina', 'Rojas', 12345, 1, '98765432', 1, 1717, 'Avenida de la Montaña', '1986-04-05', 2),
+  ('Alejandro', 'Soto', 12345, 2, '87654321', 2, 1818, 'Calle del Río', '1999-02-28', 1),
+  ('Mariana', 'Ortega', 12345, 1, '12345678', 3, 1919, 'Avenida del Mar', '1991-08-14', 2),
+  ('Matías', 'López', 12345, 2, '32109876', 1, 2020, 'Calle del Centro', '1987-12-03', 1);
 
   
 -- Insertar clientes asociados a los usuarios
