@@ -7,8 +7,8 @@
 
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".TransferActivity"
-    tools:openDrawer="start">
+    tools:context=".TransferActivity">
+<!--    tools:openDrawer="start">-->
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -54,7 +54,189 @@
                 app:layout_constraintEnd_toEndOf="@+id/linearLayout"
                 app:layout_constraintTop_toTopOf="@+id/linearLayout" />
 
+            <View
+                android:id="@+id/rectangle_3"
+                android:layout_width="fill_parent"
+                android:layout_height="83dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="24dp"
+                android:background="@color/col2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.507"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/transferenc" />
+
+            <View
+                android:id="@+id/local_atm"
+                android:layout_width="48dp"
+                android:layout_height="49dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/baseline_monetization_on_24"
+                app:layout_constraintBottom_toBottomOf="@+id/rectangle_3"
+                app:layout_constraintStart_toStartOf="@+id/rectangle_3"
+                app:layout_constraintTop_toTopOf="@+id/rectangle_3"
+                app:layout_constraintVertical_bias="0.47" />
+
+            <TextView
+                android:id="@+id/balance"
+                android:layout_width="122dp"
+                android:layout_height="39dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:text="Balance:"
+                android:textSize="28dp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/rectangle_3"
+                app:layout_constraintStart_toEndOf="@+id/local_atm"
+                app:layout_constraintTop_toTopOf="@+id/rectangle_3"
+                app:layout_constraintVertical_bias="0.392" />
+
+            <TextView
+                android:id="@+id/some_id"
+                android:layout_width="167dp"
+                android:layout_height="46dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/some_id"
+                android:textAppearance="@style/some_id"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/rectangle_3"
+                app:layout_constraintEnd_toEndOf="@+id/rectangle_3"
+                app:layout_constraintHorizontal_bias="0.262"
+                app:layout_constraintStart_toEndOf="@+id/balance"
+                app:layout_constraintTop_toTopOf="@+id/rectangle_3"
+                app:layout_constraintVertical_bias="0.432" />
+
+
             <!--            HEADER END -->
+
+
+            <!--            FOOTER START -->
+
+            <ImageButton
+                android:id="@+id/ellipse_7"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="36dp"
+                android:background="@drawable/send_money"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rectangle_3" />
+
+            <ImageButton
+                android:id="@+id/ellipse_2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="75dp"
+                android:layout_marginTop="236dp"
+                android:background="@drawable/baseline_manage_history_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rectangle_3" />
+
+            <ImageButton
+                android:id="@+id/ellipse_"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="75dp"
+                android:background="@drawable/baseline_person_add_alt_24"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rectangle_3" />
+
+            <TextView
+                android:id="@+id/transferenc"
+                android:layout_width="369dp"
+                android:layout_height="67dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="16dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/transferenc"
+                android:textAppearance="@style/transferenc"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="20dp"
+                android:text="Historial"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ellipse_2" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="68dp"
+                android:layout_marginTop="20dp"
+                android:text="Transferir"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ellipse_7" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="88dp"
+                android:text="Agregar"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ellipse_" />
+
+            <View
+                android:id="@+id/rectangle_2"
+                android:layout_width="fill_parent"
+                android:layout_height="57dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="600dp"
+                android:background="#E7F6F2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <TextView
+                android:id="@+id/bankarg_des"
+                android:layout_width="433dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/bankarg_des"
+                android:textAppearance="@style/bankarg_des"
+                android:textSize="21sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/rectangle_2" />
+
+            <!-- FOOTER END -->
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
