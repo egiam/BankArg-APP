@@ -9,6 +9,8 @@
     android:fitsSystemWindows="true"
     tools:context=".LoanActivity">
 
+    <!--    tools:openDrawer="start"-->
+
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="match_parent">
@@ -53,7 +55,142 @@
                 app:layout_constraintEnd_toEndOf="@+id/linearLayout"
                 app:layout_constraintTop_toTopOf="@+id/linearLayout" />
 
+
             <!--            HEADER END -->
+
+            <TextView
+                android:id="@+id/solicitud_d"
+                android:layout_width="wrap_content"
+                android:layout_height="72dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="24dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Solicitud de Préstamo"
+                android:textAppearance="@style/solicitud_d"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <!-- Auto layout, variables, and unit scale are not yet supported -->
+            <View
+                android:id="@+id/real_estate"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/real_estate_agent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/solicitud_d" />
+
+            <TextView
+                android:id="@+id/monto_a_sol"
+                android:layout_width="243dp"
+                android:layout_height="64dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Monto a solicitar:"
+                android:textAppearance="@style/monto_a_sol"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/real_estate" />
+
+            <EditText
+                android:id="@+id/cuantoqueregato"
+                android:layout_width="350dp"
+                android:layout_height="55dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/custom_edittext"
+                android:hint="Monto"
+                android:padding="8dp"
+                android:textColor="@color/col1"
+                android:textColorHighlight="@color/cardview_dark_background"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/monto_a_sol" />
+
+
+            <TextView
+                android:id="@+id/cantidad_de"
+                android:layout_width="322dp"
+                android:layout_height="119dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center_vertical"
+                android:text="Cantidad de cuotas en las que desea devolver el préstamo:"
+                android:textAppearance="@style/cantidad_de"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.567"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cuantoqueregato" />
+
+            <EditText
+                android:id="@+id/rectangle_3"
+                android:layout_width="350dp"
+                android:layout_height="55dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/custom_edittext"
+                android:hint="Cuotas"
+                android:padding="8dp"
+                android:textColor="@color/col1"
+                android:textColorHighlight="@color/cardview_dark_background"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cantidad_de" />
+
+            <Button
+                android:id="@+id/Solicitar"
+                android:layout_width="260dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="24dp"
+                android:backgroundTint="@color/col1"
+                android:text="Solicitar"
+                android:textSize="26dp"
+                app:cornerRadius="10dp"
+                app:layout_constraintBottom_toTopOf="@+id/rectangle_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rectangle_3" />
+
+
+            <!--            FOOTER START -->
+            <View
+                android:id="@+id/rectangle_2"
+                android:layout_width="fill_parent"
+                android:layout_height="57dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="600dp"
+                android:background="#E7F6F2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <TextView
+                android:id="@+id/bankarg_des"
+                android:layout_width="433dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/bankarg_des"
+                android:textAppearance="@style/bankarg_des"
+                android:textSize="21sp"
+                app:layout_constraintBottom_toBottomOf="@+id/rectangle_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Enviar" />
+            <!-- FOOTER END -->
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

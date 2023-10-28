@@ -14,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_banking.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_banking.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_transfer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_transfer.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_mantenimiento.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_mantenimiento.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[ZE222SM6GC]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\ezegi\.android\avd\Pixel_2_API_30.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
