@@ -8,11 +8,9 @@ BankArg repository. Universitary Project (ISPC)
 # Integrantes actuales
 
 1. Ezequiel Giampaoli - Email: ezegiampaoli@gmail.com - GitHub: egiam
-2. Mariana Trinidad Benegas - Email: trinidadbenegas.estudio@gmail.com - Github: trinidadbenegas
-3. Maria Laura Peralta - Email: lali.635@gmail.com - Github: PeraltaMariaL-ISPC (peraltaml.ispc@gmail.com)
-4. Valentin Alterio - Email: alteriovalentin01@gmail.com - Github: Valealterio
-5. Joaquin Bonvechi - Email: joacobonvechi2272002@gmail.com - GitHub: JoacoBonvechi
-6. MILIAN Roberto Ariel - Email: milianarieleam@gmail.com - GitHub: MilianAriel
+2. Maria Laura Peralta - Email: lali.635@gmail.com - Github: PeraltaMariaL-ISPC (peraltaml.ispc@gmail.com)
+3. Valentin Alterio - Email: alteriovalentin01@gmail.com - Github: Valealterio
+4. Joaquin Bonvechi - Email: joacobonvechi2272002@gmail.com - GitHub: JoacoBonvechi
 
 
 ***
