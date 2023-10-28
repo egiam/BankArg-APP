@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/col1"
-    tools:context=".LoginActivity">
+    tools:context=".RegisterActivity">
 
     <ImageButton
         android:id="@+id/imageButton9"
@@ -50,7 +50,7 @@
                 android:id="@+id/loginText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Login"
+                android:text="Register"
                 android:textAlignment="center"
                 android:textColor="@color/col3"
                 android:textSize="36sp"
@@ -91,7 +91,7 @@
                 android:layout_height="60dp"
                 android:layout_marginTop="20dp"
                 android:backgroundTint="@color/col3"
-                android:text="Acceder"
+                android:text="Registrate"
                 android:textColor="@color/col2"
                 android:textSize="26sp"
                 android:textStyle="bold"
@@ -99,12 +99,12 @@
 
             <TextView
                 android:id="@+id/signupText"
-                android:layout_width="293dp"
+                android:layout_width="295dp"
                 android:layout_height="49dp"
                 android:clickable="true"
                 android:onClick="onClick"
                 android:padding="8dp"
-                android:text="Not yet registered? SignUp Now"
+                android:text="Already Registered? Sing In now"
                 android:textAlignment="center"
                 android:textColor="@color/col1"
                 android:textSize="19sp" />
