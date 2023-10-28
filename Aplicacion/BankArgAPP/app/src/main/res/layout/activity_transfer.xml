@@ -166,7 +166,7 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="16dp"
                 android:gravity="center_horizontal|center_vertical"
-                android:text="@string/transferenc"
+                android:text="@string/transferencias"
                 android:textAppearance="@style/transferenc"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
