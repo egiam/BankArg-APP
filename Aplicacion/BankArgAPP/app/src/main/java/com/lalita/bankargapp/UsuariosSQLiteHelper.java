@@ -1,15 +1,22 @@
 package com.lalita.bankargapp;
 
+import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
+import android.util.Log;
+
+import com.lalita.bankargapp.Clases.User;
 import com.lalita.bankargapp.Clases.Usuarios;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
     private static final String DATABASE_NAME = "BankArgAPP.db";
-    private static final int DATABASE_VERSION = 1;
+    private static final int DATABASE_VERSION = 2;
 
     // Definir la estructura de la tabla "user".
     private static final String CREATE_TABLE_USER = "CREATE TABLE if not exists User (" +
@@ -22,15 +29,18 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
+        Log.d("DB_CREATION", "Database created or upgraded");
         // Ejecutar la creación de la tabla "user".
         db.execSQL(CREATE_TABLE_USER);
 
-//        db.execSQL("CREATE TABLE if not exists Documentos (id_tipo_doc INTEGER PRIMARY KEY, tipo_doc TEXT)");
-//        db.execSQL("CREATE TABLE if not exists Sexos (id_tipo_sexo INTEGER PRIMARY KEY, tipo TEXT)");
-//        db.execSQL("CREATE TABLE if not exists paises (cod_pais INTEGER PRIMARY KEY, pais TEXT)");
-//        db.execSQL("CREATE TABLE if not exists provincias (cod_provincia INTEGER PRIMARY KEY, provincia TEXT, cod_pais INTEGER, FOREIGN KEY (cod_pais) REFERENCES paises(cod_pais))");
-//        db.execSQL("CREATE TABLE if not exists localidades (cod_localidad INTEGER PRIMARY KEY, localidad TEXT, cod_provincia INTEGER, FOREIGN KEY (cod_provincia) REFERENCES provincias(cod_provincia))");
-//        db.execSQL("CREATE TABLE if not exists Usuarios (id_usuario INTEGER PRIMARY KEY, nombre TEXT, apellido TEXT, username TEXT not null, password TEXT not null, id_tipo_doc INTEGER, nro_doc TEXT, cod_localidad INTEGER, nro_calle INTEGER, calle TEXT, fecha_nac TEXT, id_tipo_sexo INTEGER, FOREIGN KEY (id_tipo_doc) REFERENCES Documentos(id_tipo_doc), FOREIGN KEY (cod_localidad) REFERENCES localidades(cod_localidad), FOREIGN KEY (id_tipo_sexo) REFERENCES Sexos(id_tipo_sexo))");
+//        Por alguna razon me da error: table Usuarios not exist
+        db.execSQL("CREATE TABLE if not exists Documentos (id_tipo_doc INTEGER PRIMARY KEY AUTOINCREMENT, tipo_doc TEXT)");
+        db.execSQL("CREATE TABLE if not exists Sexos (id_tipo_sexo INTEGER PRIMARY KEY AUTOINCREMENT, tipo TEXT)");
+        db.execSQL("CREATE TABLE if not exists paises (cod_pais INTEGER PRIMARY KEY AUTOINCREMENT, pais TEXT)");
+        db.execSQL("CREATE TABLE if not exists provincias (cod_provincia INTEGER PRIMARY KEY AUTOINCREMENT, provincia TEXT, cod_pais INTEGER, FOREIGN KEY (cod_pais) REFERENCES paises(cod_pais))");
+        db.execSQL("CREATE TABLE if not exists localidades (cod_localidad INTEGER PRIMARY KEY AUTOINCREMENT, localidad TEXT, cod_provincia INTEGER, FOREIGN KEY (cod_provincia) REFERENCES provincias(cod_provincia))");
+        db.execSQL("CREATE TABLE if not exists Usuarios (id_usuario INTEGER PRIMARY KEY AUTOINCREMENT, nombre TEXT, apellido TEXT, username TEXT not null, password TEXT not null, id_tipo_doc INTEGER, nro_doc TEXT, cod_localidad INTEGER, nro_calle INTEGER, calle TEXT, fecha_nac TEXT, id_tipo_sexo INTEGER, FOREIGN KEY (id_tipo_doc) REFERENCES Documentos(id_tipo_doc), FOREIGN KEY (cod_localidad) REFERENCES localidades(cod_localidad), FOREIGN KEY (id_tipo_sexo) REFERENCES Sexos(id_tipo_sexo))");
+
 //        db.execSQL("CREATE TABLE if not exists Clientes (id_cliente INTEGER PRIMARY KEY, id_usuario INTEGER, nro_afiliado INTEGER, FOREIGN KEY (id_usuario) REFERENCES Usuarios(id_usuario))");
 //        db.execSQL("CREATE TABLE if not exists Tipos_transferencias (id_tipo_transferencia INTEGER PRIMARY KEY, tipo_transferencia TEXT)");
 //        db.execSQL("CREATE TABLE if not exists Transferencias (id_transferencia INTEGER PRIMARY KEY, id_tipo_transferencia INTEGER, id_cliente INTEGER, fecha TEXT, monto INTEGER, cuenta_envio TEXT, cuenta_recibo TEXT, FOREIGN KEY (id_tipo_transferencia) REFERENCES Tipos_transferencias(id_tipo_transferencia), FOREIGN KEY (id_cliente) REFERENCES Clientes(id_cliente))");
@@ -75,62 +85,62 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
         db.execSQL("INSERT INTO User (username, password) VALUES ('valen', '1234')");
         db.execSQL("INSERT INTO User (username, password) VALUES ('user', '1234')");
 
-////        Paises
-//        db.execSQL("INSERT INTO paises (pais) VALUES ('Argentina')");
-//        db.execSQL("INSERT INTO paises (pais) VALUES ('Brasil')");
-//        db.execSQL("INSERT INTO paises (pais) VALUES ('Chile')");
-//        db.execSQL("INSERT INTO paises (pais) VALUES ('Uruguay')");
-//
-////        Provincias
-//        db.execSQL("INSERT INTO provincias (provincia, cod_pais) VALUES ('Buenos Aires', 1)");
-//        db.execSQL("INSERT INTO provincias (provincia, cod_pais) VALUES ('Catamarca', 1)");
-//        db.execSQL("INSERT INTO provincias (provincia, cod_pais) VALUES ('Chaco', 1)");
-//        db.execSQL("INSERT INTO provincias (provincia, cod_pais) VALUES ('Chubut', 1)");
-//        db.execSQL("INSERT INTO provincias (provincia, cod_pais) VALUES ('Cordoba', 1)");
-//
-//        db.execSQL("INSERT INTO provincias (provincia, cod_pais) VALUES ('Some Province in Brazil', 2)");
-//        db.execSQL("INSERT INTO provincias (provincia, cod_pais) VALUES ('Some Province in Chile', 3)");
-//        db.execSQL("INSERT INTO provincias (provincia, cod_pais) VALUES ('Some Province in Uruguay', 4)");
-//
-////        Localidades
-//        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('Buenos Aires', 1)");
-//        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('La Plata', 1)");
-//        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('Mar del Plata', 1)");
-//
-//        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('City in Catamarca', (SELECT cod_provincia FROM provincias WHERE provincia = 'Catamarca'))");
-//        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('City in Chaco', (SELECT cod_provincia FROM provincias WHERE provincia = 'Chaco'))");
-//        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('City in Chubut', (SELECT cod_provincia FROM provincias WHERE provincia = 'Chubut'))");
-//        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('City in Cordoba', (SELECT cod_provincia FROM provincias WHERE provincia = 'Cordoba'))");
-//        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('Some City in Brazil', (SELECT cod_provincia FROM provincias WHERE provincia = 'Some Province in Brazil'))");
-//        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('Some City in Chile', (SELECT cod_provincia FROM provincias WHERE provincia = 'Some Province in Chile'))");
-//        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('Some City in Uruguay', (SELECT cod_provincia FROM provincias WHERE provincia = 'Some Province in Uruguay'))");
-//
-////        Documentos
-//        db.execSQL("INSERT INTO Documentos (tipo_doc) VALUES ('Dni')");
-//        db.execSQL("INSERT INTO Documentos (tipo_doc) VALUES ('Pasaporte')");
-//        db.execSQL("INSERT INTO Documentos (tipo_doc) VALUES ('Obra social')");
-//        db.execSQL("INSERT INTO Documentos (tipo_doc) VALUES ('Licencia de conducir')");
-//
-////        Sexos
-//        db.execSQL("INSERT INTO Sexos (tipo) VALUES ('Hombre')");
-//        db.execSQL("INSERT INTO Sexos (tipo) VALUES ('Mujer')");
-//        db.execSQL("INSERT INTO Sexos (tipo) VALUES ('Otro')");
-//
-////        Usuarios
-//        db.execSQL("INSERT INTO Usuarios (nombre, apellido, username, password, id_tipo_doc, nro_doc, cod_localidad, nro_calle, calle, fecha_nac, id_tipo_sexo) " +
-//                "VALUES ('Ana', 'López', 'analopez', '12345', 1, '12345678', 1, 101, 'Calle Principal', '1990-04-15', 2)");
-//        String insertMultipleUsersQuery = "INSERT INTO Usuarios (nombre, apellido, username, password, id_tipo_doc, nro_doc, cod_localidad, nro_calle, calle, fecha_nac, id_tipo_sexo) " +
-//                "VALUES " +
-//                "('Juan', 'Martínez', 'juanmartinez', '12345', 2, '87654321', 2, 202, 'Avenida Secundaria', '1985-07-20', 1), " +
-//                "('María', 'González', 'mariagonzalez', '12345', 1, '98765432', 3, 303, 'Calle del Centro', '1992-02-10', 2), " +
-//                "('Carlos', 'Rodríguez', 'carlosrodriguez', '12345', 2, '56789012', 1, 404, 'Calle Residencial', '1998-05-05', 1), " +
-//                "('Luisa', 'Sánchez', 'luisasanchez', '12345', 1, '34567890', 2, 505, 'Avenida Principal', '1987-11-30', 2), " +
-//                "('Javier', 'Pérez', 'javierperez', '12345', 2, '23456789', 3, 606, 'Calle del Parque', '1994-08-25', 1), " +
-//                "('Sofía', 'Fernández', 'sofiafernandez', '12345', 1, '43210987', 1, 707, 'Avenida Central', '1991-01-18', 2), " +
-//                "('Diego', 'Ramírez', 'diegoramirez', '12345', 2, '54321098', 2, 808, 'Calle Comercial', '1996-03-02', 1), " +
-//                "('Lucía', 'Torres', 'luciatorres', '12345', 1, '67890123', 3, 909, 'Avenida Residencial', '1988-06-10', 2), " +
-//                "('Mateo', 'Luna', 'mateoluna', '12345', 2, '45678901', 1, 1010, 'Calle de la Plaza', '1993-12-08', 1)";
-//        db.execSQL(insertMultipleUsersQuery);
+//        Paises
+        db.execSQL("INSERT INTO paises (pais) VALUES ('Argentina')");
+        db.execSQL("INSERT INTO paises (pais) VALUES ('Brasil')");
+        db.execSQL("INSERT INTO paises (pais) VALUES ('Chile')");
+        db.execSQL("INSERT INTO paises (pais) VALUES ('Uruguay')");
+
+//        Provincias
+        db.execSQL("INSERT INTO provincias (provincia, cod_pais) VALUES ('Buenos Aires', 1)");
+        db.execSQL("INSERT INTO provincias (provincia, cod_pais) VALUES ('Catamarca', 1)");
+        db.execSQL("INSERT INTO provincias (provincia, cod_pais) VALUES ('Chaco', 1)");
+        db.execSQL("INSERT INTO provincias (provincia, cod_pais) VALUES ('Chubut', 1)");
+        db.execSQL("INSERT INTO provincias (provincia, cod_pais) VALUES ('Cordoba', 1)");
+
+        db.execSQL("INSERT INTO provincias (provincia, cod_pais) VALUES ('Some Province in Brazil', 2)");
+        db.execSQL("INSERT INTO provincias (provincia, cod_pais) VALUES ('Some Province in Chile', 3)");
+        db.execSQL("INSERT INTO provincias (provincia, cod_pais) VALUES ('Some Province in Uruguay', 4)");
+
+//        Localidades
+        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('Buenos Aires', 1)");
+        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('La Plata', 1)");
+        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('Mar del Plata', 1)");
+
+        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('City in Catamarca', (SELECT cod_provincia FROM provincias WHERE provincia = 'Catamarca'))");
+        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('City in Chaco', (SELECT cod_provincia FROM provincias WHERE provincia = 'Chaco'))");
+        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('City in Chubut', (SELECT cod_provincia FROM provincias WHERE provincia = 'Chubut'))");
+        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('City in Cordoba', (SELECT cod_provincia FROM provincias WHERE provincia = 'Cordoba'))");
+        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('Some City in Brazil', (SELECT cod_provincia FROM provincias WHERE provincia = 'Some Province in Brazil'))");
+        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('Some City in Chile', (SELECT cod_provincia FROM provincias WHERE provincia = 'Some Province in Chile'))");
+        db.execSQL("INSERT INTO localidades (localidad, cod_provincia) VALUES ('Some City in Uruguay', (SELECT cod_provincia FROM provincias WHERE provincia = 'Some Province in Uruguay'))");
+
+//        Documentos
+        db.execSQL("INSERT INTO Documentos (tipo_doc) VALUES ('Dni')");
+        db.execSQL("INSERT INTO Documentos (tipo_doc) VALUES ('Pasaporte')");
+        db.execSQL("INSERT INTO Documentos (tipo_doc) VALUES ('Obra social')");
+        db.execSQL("INSERT INTO Documentos (tipo_doc) VALUES ('Licencia de conducir')");
+
+//        Sexos
+        db.execSQL("INSERT INTO Sexos (tipo) VALUES ('Hombre')");
+        db.execSQL("INSERT INTO Sexos (tipo) VALUES ('Mujer')");
+        db.execSQL("INSERT INTO Sexos (tipo) VALUES ('Otro')");
+
+//        Usuarios
+        db.execSQL("INSERT INTO Usuarios (nombre, apellido, username, password, id_tipo_doc, nro_doc, cod_localidad, nro_calle, calle, fecha_nac, id_tipo_sexo) " +
+                "VALUES ('Ana', 'López', 'analopez', '12345', 1, '12345678', 1, 101, 'Calle Principal', '1990-04-15', 2)");
+        String insertMultipleUsersQuery = "INSERT INTO Usuarios (nombre, apellido, username, password, id_tipo_doc, nro_doc, cod_localidad, nro_calle, calle, fecha_nac, id_tipo_sexo) " +
+                "VALUES " +
+                "('Juan', 'Martínez', 'juanmartinez', '12345', 2, '87654321', 2, 202, 'Avenida Secundaria', '1985-07-20', 1), " +
+                "('María', 'González', 'mariagonzalez', '12345', 1, '98765432', 3, 303, 'Calle del Centro', '1992-02-10', 2), " +
+                "('Carlos', 'Rodríguez', 'carlosrodriguez', '12345', 2, '56789012', 1, 404, 'Calle Residencial', '1998-05-05', 1), " +
+                "('Luisa', 'Sánchez', 'luisasanchez', '12345', 1, '34567890', 2, 505, 'Avenida Principal', '1987-11-30', 2), " +
+                "('Javier', 'Pérez', 'javierperez', '12345', 2, '23456789', 3, 606, 'Calle del Parque', '1994-08-25', 1), " +
+                "('Sofía', 'Fernández', 'sofiafernandez', '12345', 1, '43210987', 1, 707, 'Avenida Central', '1991-01-18', 2), " +
+                "('Diego', 'Ramírez', 'diegoramirez', '12345', 2, '54321098', 2, 808, 'Calle Comercial', '1996-03-02', 1), " +
+                "('Lucía', 'Torres', 'luciatorres', '12345', 1, '67890123', 3, 909, 'Avenida Residencial', '1988-06-10', 2), " +
+                "('Mateo', 'Luna', 'mateoluna', '12345', 2, '45678901', 1, 1010, 'Calle de la Plaza', '1993-12-08', 1)";
+        db.execSQL(insertMultipleUsersQuery);
 
     }
 
@@ -176,4 +186,31 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
 
         return usuario;
     }
+
+    public Boolean insertData(String nombre, String apellido, String username, String password, int idTipoDoc, String nroDoc, int codLocalidad, int nroCalle, String calle, String fechaNac, int idTipoSexo) {
+        SQLiteDatabase MyDatabase = this.getWritableDatabase();
+        ContentValues contentValues = new ContentValues();
+
+        contentValues.put("nombre", nombre);
+        contentValues.put("apellido", apellido);
+        contentValues.put("username", username);
+        contentValues.put("password", password);
+        contentValues.put("id_tipo_doc", idTipoDoc);
+        contentValues.put("nro_doc", nroDoc);
+        contentValues.put("cod_localidad", codLocalidad);
+        contentValues.put("nro_calle", nroCalle);
+        contentValues.put("calle", calle);
+        contentValues.put("fecha_nac", fechaNac);
+        contentValues.put("id_tipo_sexo", idTipoSexo);
+
+        long result = MyDatabase.insert("Usuarios", null, contentValues);
+
+        if (result == -1) {
+            return false; // Insertion failed
+        } else {
+            return true; // Insertion successful
+        }
+    }
+
+
 }

@@ -36,6 +36,14 @@ public class Usuarios {
         this.idTipoSexo = idTipoSexo;
     }
 
+    public Usuarios(String username, String password) {
+        this.username = username;
+        this.password = password;
+    }
+
+    public Usuarios() {
+    }
+
     // Getters and Setters (for each field)
 
     public int getIdUsuario() {
@@ -46,7 +54,93 @@ public class Usuarios {
         this.idUsuario = idUsuario;
     }
 
-    // ... (Getters and Setters for other fields)
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public int getIdTipoDoc() {
+        return idTipoDoc;
+    }
+
+    public void setIdTipoDoc(int idTipoDoc) {
+        this.idTipoDoc = idTipoDoc;
+    }
+
+    public String getNroDoc() {
+        return nroDoc;
+    }
+
+    public void setNroDoc(String nroDoc) {
+        this.nroDoc = nroDoc;
+    }
+
+    public int getCodLocalidad() {
+        return codLocalidad;
+    }
+
+    public void setCodLocalidad(int codLocalidad) {
+        this.codLocalidad = codLocalidad;
+    }
+
+    public int getNroCalle() {
+        return nroCalle;
+    }
+
+    public void setNroCalle(int nroCalle) {
+        this.nroCalle = nroCalle;
+    }
+
+    public String getCalle() {
+        return calle;
+    }
+
+    public void setCalle(String calle) {
+        this.calle = calle;
+    }
+
+    public String getFechaNac() {
+        return fechaNac;
+    }
+
+    public void setFechaNac(String fechaNac) {
+        this.fechaNac = fechaNac;
+    }
+
+    public int getIdTipoSexo() {
+        return idTipoSexo;
+    }
+
+    public void setIdTipoSexo(int idTipoSexo) {
+        this.idTipoSexo = idTipoSexo;
+    }
 
     // toString() method for debugging
     @Override

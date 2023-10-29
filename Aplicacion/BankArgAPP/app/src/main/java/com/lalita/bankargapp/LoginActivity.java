@@ -40,6 +40,8 @@ public class LoginActivity extends AppCompatActivity {
                 String inputUsername = username.getText().toString();
                 String inputPassword = password.getText().toString();
 
+//                Usuarios user = new Usuarios(inputUsername, inputPassword);
+
 //                Usuarios usuario = dbHelper.findUserByUsernameAndPassword(inputUsername, inputPassword);
 //
 //                if (usuario != null) {

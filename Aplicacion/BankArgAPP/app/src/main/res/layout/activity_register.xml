@@ -67,6 +67,160 @@
                 android:textColorHighlight="@color/cardview_dark_background"
                 android:textColorHint="@color/col1" />
 
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="65dp">-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/CustomerName"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="@drawable/custom_edittext"-->
+<!--                    android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:hint="Name"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:textColor="@color/col1"-->
+<!--                    android:textColorHighlight="@color/cardview_dark_background"-->
+<!--                    android:textColorHint="@color/col1" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/LastName"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginLeft="2dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="@drawable/custom_edittext"-->
+<!--                    android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:hint="Last Name"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:textColor="@color/col1"-->
+<!--                    android:textColorHighlight="@color/cardview_dark_background"-->
+<!--                    android:textColorHint="@color/col1" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="65dp">-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/tipoDoc"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="@drawable/custom_edittext"-->
+<!--                    android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:hint="Doc Type"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:textColor="@color/col1"-->
+<!--                    android:textColorHighlight="@color/cardview_dark_background"-->
+<!--                    android:textColorHint="@color/col1" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/nroDoc"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginLeft="2dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="@drawable/custom_edittext"-->
+<!--                    android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:hint="Nro Doc"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:textColor="@color/col1"-->
+<!--                    android:textColorHighlight="@color/cardview_dark_background"-->
+<!--                    android:textColorHint="@color/col1" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/fecNac"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:background="@drawable/custom_edittext"-->
+<!--                android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                android:drawablePadding="8dp"-->
+<!--                android:hint="Birth Date"-->
+<!--                android:padding="8dp"-->
+<!--                android:textColor="@color/col1"-->
+<!--                android:textColorHighlight="@color/cardview_dark_background"-->
+<!--                android:textColorHint="@color/col1" />-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="65dp">-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/codLoc"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="@drawable/custom_edittext"-->
+<!--                    android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:hint="Localidad"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:textColor="@color/col1"-->
+<!--                    android:textColorHighlight="@color/cardview_dark_background"-->
+<!--                    android:textColorHint="@color/col1" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/tipoSex"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginLeft="2dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="@drawable/custom_edittext"-->
+<!--                    android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:hint="Tipo Sexo"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:textColor="@color/col1"-->
+<!--                    android:textColorHighlight="@color/cardview_dark_background"-->
+<!--                    android:textColorHint="@color/col1" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="65dp">-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/nroCalle"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="@drawable/custom_edittext"-->
+<!--                    android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:hint="Nro Calle"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:textColor="@color/col1"-->
+<!--                    android:textColorHighlight="@color/cardview_dark_background"-->
+<!--                    android:textColorHint="@color/col1" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/Calle"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginLeft="2dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="@drawable/custom_edittext"-->
+<!--                    android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:hint="Calle"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:textColor="@color/col1"-->
+<!--                    android:textColorHighlight="@color/cardview_dark_background"-->
+<!--                    android:textColorHint="@color/col1" />-->
+
+<!--            </LinearLayout>-->
+
             <Button
                 android:id="@+id/loginButton"
                 android:layout_width="match_parent"
