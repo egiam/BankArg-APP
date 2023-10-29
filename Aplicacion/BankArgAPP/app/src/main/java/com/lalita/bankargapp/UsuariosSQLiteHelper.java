@@ -66,7 +66,6 @@ public class UsuariosSQLiteHelper extends SQLiteOpenHelper {
 //        db.execSQL("CREATE TABLE Usuarios_admin (cod_usuario INTEGER PRIMARY KEY, id_usuario INTEGER, id_tipo_empleado INTEGER, id_tipo_estado_empleado INTEGER, fecha_ingreso TEXT, sueldo REAL, FOREIGN KEY (id_usuario) REFERENCES Usuarios(id_usuario), FOREIGN KEY (id_tipo_empleado) REFERENCES Tipo_empleado(id_tipo_empleado), FOREIGN KEY (id_tipo_estado_empleado) REFERENCES Tipo_estado_empleado(id_tipo_estado_empleado))");
 
 
-        // Puedes agregar más tablas si es necesario.
 
         db.execSQL("INSERT INTO User (username, password) VALUES ('admin', '1234')");
         db.execSQL("INSERT INTO User (username, password) VALUES ('eze', '1234')");
