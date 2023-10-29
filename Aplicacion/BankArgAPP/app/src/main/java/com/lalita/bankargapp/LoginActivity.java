@@ -12,6 +12,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.content.Intent;
 
+import com.lalita.bankargapp.Clases.Usuarios;
+
 public class LoginActivity extends AppCompatActivity {
 
     EditText username;
@@ -37,6 +39,20 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String inputUsername = username.getText().toString();
                 String inputPassword = password.getText().toString();
+
+//                Usuarios usuario = dbHelper.findUserByUsernameAndPassword(inputUsername, inputPassword);
+//
+//                if (usuario != null) {
+//                    // User exists, login successful
+//                    Toast.makeText(LoginActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
+//
+//                    // Navigate to the profile activity after successful login
+//                    Intent intent = new Intent(LoginActivity.this, PerfilActivity.class);
+//                    startActivity(intent);
+//                } else {
+//                    // User doesn't exist or incorrect password
+//                    Toast.makeText(LoginActivity.this, "Login Failed!", Toast.LENGTH_SHORT).show();
+//                }
 
                 // Query the database to check if the user exists
                 fila = db.rawQuery("SELECT username, password FROM User WHERE username='"+

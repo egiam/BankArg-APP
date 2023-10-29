@@ -7,28 +7,10 @@
     android:background="@color/col1"
     tools:context=".RegisterActivity">
 
-    <ImageButton
-        android:id="@+id/imageButton9"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:adjustViewBounds="true"
-        android:background="@null"
-        android:isScrollContainer="false"
-        android:scaleType="centerInside"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.062"
-        app:srcCompat="@drawable/logo_no_background_1" />
-
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView2"
         android:layout_width="349dp"
-        android:layout_height="355dp"
+        android:layout_height="match_parent"
         android:layout_margin="30dp"
         android:background="@drawable/custom_edittext"
         app:cardBackgroundColor="@color/col2"
@@ -37,7 +19,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageButton9">
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -66,9 +48,9 @@
                 android:drawablePadding="8dp"
                 android:hint="Username"
                 android:padding="8dp"
-                android:textColorHint="@color/col1"
                 android:textColor="@color/col1"
-                android:textColorHighlight="@color/cardview_dark_background" />
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textColorHint="@color/col1" />
 
             <EditText
                 android:id="@+id/password"
@@ -81,9 +63,9 @@
                 android:hint="Password"
                 android:inputType="textPassword"
                 android:padding="8dp"
-                android:textColorHint="@color/col1"
                 android:textColor="@color/col1"
-                android:textColorHighlight="@color/cardview_dark_background" />
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textColorHint="@color/col1" />
 
             <Button
                 android:id="@+id/loginButton"
