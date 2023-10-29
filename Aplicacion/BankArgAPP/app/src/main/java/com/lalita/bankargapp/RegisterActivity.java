@@ -19,6 +19,15 @@ public class RegisterActivity extends AppCompatActivity {
 
     EditText username;
     EditText password;
+//    EditText CustomerNameV;
+//    EditText LastNameV;
+//    EditText tipoDocV;
+//    EditText nroDocV;
+//    EditText fecNacV;
+//    EditText codLocV;
+//    EditText tipoSexV;
+//    EditText nroCalleV;
+//    EditText CalleV;
     Button loginButton;
     SQLiteDatabase db;
     private Cursor fila;
@@ -31,6 +40,16 @@ public class RegisterActivity extends AppCompatActivity {
         username = findViewById(R.id.username);
         password = findViewById(R.id.password);
         loginButton = findViewById(R.id.loginButton);
+//
+//        CustomerNameV = findViewById(R.id.CustomerName);
+//        LastNameV = findViewById(R.id.LastName);
+//        tipoDocV = findViewById(R.id.tipoDoc);
+//        nroDocV = findViewById(R.id.nroDoc);
+//        fecNacV = findViewById(R.id.fecNac);
+//        codLocV = findViewById(R.id.codLoc);
+//        tipoSexV = findViewById(R.id.tipoSex);
+//        nroCalleV = findViewById(R.id.nroCalle);
+//        CalleV = findViewById(R.id.Calle);
 
         UsuariosSQLiteHelper dbHelper = new UsuariosSQLiteHelper(this);
         db = dbHelper.getWritableDatabase();
@@ -40,6 +59,26 @@ public class RegisterActivity extends AppCompatActivity {
             public void onClick(View view) {
                 String inputUsername = username.getText().toString();
                 String inputPassword = password.getText().toString();
+//
+//                String inputName = CustomerNameV.getText().toString();
+//                String inputLastName = LastNameV.getText().toString();
+//                Integer inputTipoDoc = Integer.parseInt(tipoDocV.getText().toString());
+//                String inputNroDoc = nroDocV.getText().toString();
+//                String inputFechaNac = fecNacV.getText().toString();
+//                Integer inputLocalidad = Integer.parseInt(codLocV.getText().toString());
+//                Integer inputTipoSexo = Integer.parseInt(tipoSexV.getText().toString());
+//                Integer inputNroCalle = Integer.parseInt(nroCalleV.getText().toString());
+//                String inputCalle = CalleV.getText().toString();
+
+//                boolean registrationSuccessful = dbHelper.insertData(inputName, inputLastName, inputUsername, inputPassword, inputTipoDoc, inputNroDoc, inputLocalidad, inputNroCalle, inputCalle, inputFechaNac, inputTipoSexo);
+
+//                if (registrationSuccessful == true){
+//                    Toast.makeText(RegisterActivity.this, "Signup Successfully!", Toast.LENGTH_SHORT).show();
+//                    Intent intent = new Intent(getApplicationContext(),LoginActivity.class);
+//                    startActivity(intent);
+//                }else{
+//                    Toast.makeText(RegisterActivity.this, "Signup Failed!", Toast.LENGTH_SHORT).show();
+//                }
 
                 ContentValues values = new ContentValues();
                 values.put("username", inputUsername);
