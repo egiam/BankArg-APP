@@ -7,7 +7,7 @@
 
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".ProductActivity">
+    tools:context=".HomeActivity">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -194,7 +194,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView10">
 
                     <Button
-                        android:id="@+id/button"
+                        android:id="@+id/btn_productos"
                         android:layout_width="200dp"
                         android:layout_height="70dp"
                         android:backgroundTint="#395B64"
@@ -215,9 +215,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="16dp"
-                        app:layout_constraintBottom_toBottomOf="@+id/button"
-                        app:layout_constraintEnd_toEndOf="@+id/button"
-                        app:layout_constraintTop_toTopOf="@+id/button"
+                        app:layout_constraintBottom_toBottomOf="@+id/btn_productos"
+                        app:layout_constraintEnd_toEndOf="@+id/btn_productos"
+                        app:layout_constraintTop_toTopOf="@+id/btn_productos"
                         app:srcCompat="@drawable/baseline_keyboard_arrow_right_24" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -270,7 +270,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/textView13">
 
                     <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/btn_tranferencias"
                         android:layout_width="200dp"
                         android:layout_height="70dp"
                         android:backgroundTint="#395B64"
@@ -290,9 +290,9 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginEnd="16dp"
-                        app:layout_constraintBottom_toBottomOf="@+id/button2"
-                        app:layout_constraintEnd_toEndOf="@+id/button2"
-                        app:layout_constraintTop_toTopOf="@+id/button2"
+                        app:layout_constraintBottom_toBottomOf="@+id/btn_tranferencias"
+                        app:layout_constraintEnd_toEndOf="@+id/btn_tranferencias"
+                        app:layout_constraintTop_toTopOf="@+id/btn_tranferencias"
                         app:srcCompat="@drawable/baseline_keyboard_arrow_right_24" />
                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -360,7 +360,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/constraintLayout4" />
 
                 <Button
-                    android:id="@+id/button3"
+                    android:id="@+id/btn_perfil"
                     android:layout_width="200dp"
                     android:layout_height="70dp"
                     android:layout_marginTop="10dp"
@@ -382,7 +382,7 @@
                     android:layout_marginTop="50dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button3">
+                    app:layout_constraintTop_toBottomOf="@+id/btn_perfil">
 
                     <ImageView
                         android:id="@+id/imageView13"
@@ -426,7 +426,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/constraintLayout5" />
 
                 <Button
-                    android:id="@+id/button4"
+                    android:id="@+id/btn_prestamo"
                     android:layout_width="200dp"
                     android:layout_height="70dp"
                     android:layout_marginTop="10dp"
@@ -448,7 +448,7 @@
                     android:layout_marginTop="50dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button4">
+                    app:layout_constraintTop_toBottomOf="@+id/btn_prestamo">
 
                     <ImageView
                         android:id="@+id/imageView15"
@@ -492,7 +492,7 @@
                     app:layout_constraintTop_toBottomOf="@+id/constraintLayout6" />
 
                 <Button
-                    android:id="@+id/button5"
+                    android:id="@+id/btn_soporte"
                     android:layout_width="200dp"
                     android:layout_height="70dp"
                     android:layout_marginTop="10dp"
@@ -516,7 +516,7 @@
                     app:cardCornerRadius="5dp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button5" />
+                    app:layout_constraintTop_toBottomOf="@+id/btn_soporte" />
 
                 <View
                     android:id="@+id/view2"

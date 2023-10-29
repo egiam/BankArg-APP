@@ -25,11 +25,40 @@ public class ProductActivity extends AppCompatActivity {
     NavigationView navigationView;
     Toolbar toolbar;
     ActionBarDrawerToggle toggle;
+    Button btnBanking, btnLoan, btnTransfer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_products);
+
+        btnBanking = findViewById(R.id.btn_banking);
+        btnLoan = findViewById(R.id.btn_loan);
+        btnTransfer = findViewById(R.id.btn_transfer);
+
+        btnTransfer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ProductActivity.this, TransferActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnLoan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ProductActivity.this, LoanActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnBanking.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ProductActivity.this, BankingActivity.class);
+                startActivity(intent);
+            }
+        });
 
         /*---------------------Hooks------------------------*/
         drawerLayout=findViewById(R.id.drawer_layout);
@@ -102,14 +131,7 @@ public class ProductActivity extends AppCompatActivity {
             }
         });
 
-        Button btnSobreNos = (Button) findViewById(R.id.btn_sobre_nosotros);
-        btnSobreNos.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(ProductActivity.this, SobreNosActivity.class);
-                startActivity(intent);
-            }
-        });
+
     }
 
     @Override

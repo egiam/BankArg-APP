@@ -7,7 +7,7 @@
 
     android:layout_height="match_parent"
     android:fitsSystemWindows="false"
-    tools:context=".HomeActivity">
+    tools:context=".ProductActivity">
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -72,7 +72,7 @@
                     app:circularflow_radiusInDP="10sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button9" />
+                    app:layout_constraintTop_toBottomOf="@+id/btn_transfer" />
 
                 <View
                     android:id="@+id/view6"
@@ -85,7 +85,7 @@
                     app:circularflow_radiusInDP="10sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button8" />
+                    app:layout_constraintTop_toBottomOf="@+id/btn_loan" />
 
                 <View
                     android:id="@+id/view5"
@@ -111,7 +111,7 @@
                     app:circularflow_radiusInDP="10sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/button6" />
+                    app:layout_constraintTop_toBottomOf="@+id/btn_banking" />
 
                 <View
                     android:id="@+id/view3"
@@ -151,7 +151,7 @@
                     app:srcCompat="@mipmap/banking" />
 
                 <Button
-                    android:id="@+id/button6"
+                    android:id="@+id/btn_banking"
                     android:layout_width="350dp"
                     android:layout_height="80dp"
                     android:layout_marginTop="50dp"
@@ -231,7 +231,7 @@
                     app:srcCompat="@mipmap/prestamo" />
 
                 <Button
-                    android:id="@+id/button8"
+                    android:id="@+id/btn_loan"
                     android:layout_width="350dp"
                     android:layout_height="80dp"
                     android:layout_marginTop="50dp"
@@ -271,10 +271,9 @@
                     app:srcCompat="@mipmap/transferencia" />
 
                 <Button
-                    android:id="@+id/button9"
+                    android:id="@+id/btn_transfer"
                     android:layout_width="350dp"
                     android:layout_height="80dp"
-                    android:layout_marginTop="50dp"
                     android:backgroundTint="#395B64"
                     android:fontFamily="@font/poppins"
                     android:text="Transferencias"
@@ -283,6 +282,7 @@
                     android:textStyle="bold"
                     app:cornerRadius="7sp"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.49"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/view6" />
 
