@@ -1,3 +1,169 @@
 IEEE830 
 Subo link para editar Requerimientos 
-https://docs.google.com/document/d/1GP3mUcusSDJSBabNtAv_j24QICd07vWKgxNyWRG0tnY/edit?usp=drivesdk
+
+Link de DRIVE https://docs.google.com/document/d/1GP3mUcusSDJSBabNtAv_j24QICd07vWKgxNyWRG0tnY
+
+# Especificacion de Requerimientos de Software
+Proyecto BankArg
+
+## Capitulo 2
+Proyecto BankArg
+
+## Introducción
+Este documento es una Especificación de Requisitos Software (ERS) para el Sistema de información de banca online. Esta especificación se ha estructurado en base al estándar IEEE. Práctica recomendada para especificaciones de Requisitos Software ANSI/IEEE 830, 1998.
+### 1.1 Propósito
+El presente documento tiene como propósito definir las especificaciones funcionales para el desarrollo de un sistema de información web que permitirá al usuario acceder a su cuenta bancaria.
+### 1.2 Ámbito del sistema
+El sistema será definido como BankArg. Proporcionará un manejo eficiente sobre la información entre el usuario y los dueños del banco.
+El principal beneficio es aportar un entorno seguro y ágil para que los usuarios, luego de un tutorial de bienvenida y haber ingresado al sistema bancario personal con sus respectivos usuarios y contraseñas, puedan visualizar su saldo, registrar contactos frecuentes, realizar transferencias a terceros, administrar sus tarjetas, agregar pago de servicios, recibir alertas de vencimientos, solicitar préstamos, validación de token, aviso en caso de inicio de sesión en otro dispositivo, turnero online, y por úlitmo un formulario de contacto.
+Como contraparte los dueños del banco obtendrán un reporte de los usuarios registrados junto con los servicios más utilizados, que les permitirán otorgar un mejor servicio y realizar futuras adecuaciones.
+### 1.3 Definiciones, acrónimos y abreviaturas
+
+- Usuario = Persona que usará el sistema para visualizar su cuenta bancaria
+- SIS-I = Sistema de Información Web para la Gestión de Procesos Administrativos y Académicos
+- ERS = Especificación de Requisitos Software
+- RF = Requerimiento Funcional
+- RNF = Requerimiento No Funcional
+- FTP = Protocolo de Transferencia de Archivos
+
+### 1.4 Personal involucrado
+- Nombre: Ezequiel Giampaoli
+/ Rol: Scrum Master y desarrollador
+/ Información de contacto: ezegiampaoli@gmail.com
+
+- Nombre: Gabriel Alejandro Orellana
+/ Rol: Desarrollador
+/ Información de contacto: gabi.ale.orellana@gmail.com (Abandono)
+
+- Nombre: Soledad Peralta
+/ Rol: Desarrolladora
+/ Información de contacto: ssperaltaa@gmail.com (Abandono)
+
+- Nombre: Roberto Ariel Milian
+/ Rol: Desarrollador
+/ Información de contacto: milianarieleam@gmail.com (?)
+
+- Nombre: Mariana Trinidad Benegas 
+/ Rol: Desarrollador
+/ Información de contacto: trinidadbenegas.estudio@gmail.com (?)
+
+- Nombre: Joaquin Bonvechi
+/ Rol: Desarrollador
+/ Información de contacto: joacobonvechi2272002@gmail.com
+
+- Nombre: Maria Laura Peralta
+/ Rol: Desarrolladora
+/ Información de contacto: lali.635@gmail.com
+
+- Nombre: Valentin Alterio
+/ Rol: Desarrollador
+/ Información de contacto: alteriovalentin01@gmail.com
+
+- Nombre: Silvana del Pilar Barea
+/ Rol: Desarrollador
+/ Información de contacto: silvanahousseini@gmail.com (Abandono)
+
+### 1.5 Referencias
+- Titulo del documento: Standard IEEE 830 - 1998
+- Referencia: IEEE 
+
+### 1.6 Resúmen
+Este documento se ha estructurado en tres partes: primero se realiza una introducción al proyecto desarrollado otorgando una visión general de la especificación de recursos del sistema. En segundo lugar se intenta establecer las principales funciones que éste debe realizar, los datos asociados y los factores, restricciones, supuestos y dependencias que afectan al desarrollo, sin entrar en excesivos detalles. Por último, se definen detalladamente los requisitos que debe satisfacer el sistema.
+
+## 2. Descripción general
+
+### 2.1 Perspectiva del producto
+El sistema de banca online “BankArg” será un producto diseñado en principio para trabajar en entornos WEB, lo que permitirá su utilización de forma rápida y eficaz, accesible en cualquier dispositivo. Contará con distintas secciones para que el usuario pueda acceder a todos sus datos relevantes, historial de movimientos, transferencias, pagos, turnos, préstamos y seguridad. Tendrá además una guía de ayuda para que los usuarios puedan resolver todas sus dudas con respecto al uso del sistema y sus herramientas disponibles. 
+
+### 2.2 Funciones del producto
+En principio "BankArg" proporcionará las siguientes funciones:
+- Acceso a cuenta
+- Transferencias de dinero
+- Pagos de servicios con sus respectivos comprobantes
+- Alertas de vencimientos
+- Solicitud de préstamos 
+- Validación token para mayor seguridad
+- Avisos en caso de iniciar sesión en otro dispositivo
+
+### 2.3 Características de los usuarios
+Establecemos distintos usuarios a saber:
+- Los usuarios finales de este producto, no requieren de ningúna formación previa para su utilización.
+- Desarrolladores, con amplios conocimientos para la implementación del software propuesto.
+- Y por último los Dueños de BankArg íntegramente capacitados en el sistema bancario.
+
+### 2.4 Restricciones
+-	Interfaz para ser usada con internet.
+-	Lenguajes y tecnologías en uso: Frontend HTML, CSS, JV Backend:Python, Base de datos: SQL 
+-	Los servidores deben ser capaces de atender consultas concurrentemente.
+-	El sistema se diseñará según un modelo cliente/servidor.
+-	El sistema deberá tener un diseño e implementación sencilla, independiente de la plataforma o del lenguaje de programación.
+
+
+## 3. Requisitos especificos
+
+### Product Backlog
+
+- US01 Como Product Owner quiero documentación explícita sobre el proyecto
+- US02 Como dueño del proyecto, quiero iniciar el desarrollo de una aplicación móvil para Android que sea de alta calidad y satisfaga las necesidades de nuestros usuarios. 
+- US03 Como equipo de diseño, necesitamos crear una interfaz de usuario inicial atractiva y funcional para la aplicación móvil que refleje los objetivos y requisitos del proyecto.
+- US04 Como administrador del banco, necesito una interfaz de administración segura que me permita supervisar y gestionar las cuentas de los clientes de manera eficiente y confiable.
+- US05 Como desarrollador, necesito implementar la pantalla de inicio de la aplicación móvil de acuerdo con el diseño proporcionado por el equipo de diseño.
+- US06 Como usuario, deseo tener un dashboard simple y accesible en la aplicación que me permita ver fácilmente el estado de mi cuenta bancaria, incluyendo información clave sobre mis saldos, movimientos y resúmenes.
+- US07 Como desarrollador de bases de datos, necesito crear un Diagrama de Entidad-Relación (DER) y un Modelo Relacional para documentar las tablas en la base de datos del proyecto.
+- US08 Como desarrollador, necesito crear un Diagrama de Clases y un Diagrama de Casos de Uso para facilitar la implementación en Programación Orientada a Objetos (POO).
+- US09 Como administrador de bases de datos, necesito generar un script SQL que actualice la base de datos con las nuevas tablas diseñadas.
+- US10 Como miembro del equipo, necesito actualizar el repositorio grupal creando una carpeta dentro de la rama principal (main) para almacenar documentos relacionados con el proyecto.
+- US11 Como diseñador de interfaz de usuario, necesito crear el diseño de las pantallas de Activity en Figma y establecer la navegabilidad en el proyecto de Android Studio, incluso antes de implementar la funcionalidad.
+- US12 Como desarrollador, necesito cargar los diseños y la navegabilidad de la aplicación en el repositorio grupal utilizando GIT, crear una rama por desarrollador y una rama feature para realizar cambios que aún no están listos para la rama develop.
+- US13 Como administrador de versiones, necesito gestionar la rama principal (main o master) para mantener versiones estables del proyecto, listas para producción, al finalizar cada sprint.
+- US14 Como administrador del proyecto, necesito activar la opción WIKI en GitHub para reflejar avances individuales y de equipo.
+- US15 Como miembro del equipo de calidad, necesito planificar tres casos de prueba para la aplicación que se está desarrollando en el proyecto con el fin de asegurar su calidad y funcionamiento adecuado.
+- US16 Como miembro del equipo de desarrollo, quiero diseñar y desarrollar todas las funcionalidades de la aplicación de manera completa, integrando tanto el diseño como la programación para crear una aplicación funcional y atractiva.
+- US17 Como desarrollador, necesito implementar operaciones CRUD (Crear, Leer, Actualizar, Borrar) para productos/servicios en la aplicación, lo que permitirá gestionar eficazmente estos elementos.
+- US18 Como desarrollador, necesito implementar operaciones CRUD para clientes/usuarios en la aplicación para facilitar la gestión de estos elementos.
+- US19 Como equipo, necesitamos crear un video de demostración final que describa y muestre todas las funcionalidades de la aplicación para presentarla de manera efectiva.
+- US20 Como desarrollador, necesito exportar la aplicación en un archivo ejecutable y subirla a GitHub para que los usuarios puedan probarla y revisar el código fuente.
+- US21 Como equipo, podemos optar por publicar la aplicación en una plataforma para su disponibilidad pública si así lo deseamos.
+
+## SPRINTS
+
+#### N° de sprint: 0
+- Sprint Backlog: 
+1. Definir requerimientos funcionales para la app a desarrollar (colocarlos en el Product Backlog del Project), a su vez revisar si han cumplimentado todos los requerimientos previos, realizando mejoras del mismo. También mencionar los Requerimientos no funcionales.
+2. Plantear Historias de Usuarios (derivadas de los requerimientos) y Tareas dependientes de las US para incorporarlas en el repositorio remoto gitHub. (Issues y Milestones) - Tener en cuenta la redacción adecuada para las US y nomenclatura, ej “#US01 Como usuario quiero ingresar al carrito para poder comprar”  
+3. Definir tareas dentro de las Historias de Usuario (GITHUB) ej dentro de las ISSUES  #TK01 importar repositorio.
+- Responsabilidades:
+- Calendario: Fecha Inicio = 28/08/2023 -  Fecha de Fin = 05/09/2023
+- Inconvenientes: -
+
+#### N° de sprint: 1
+- Sprint Backlog: 
+1. Crear su propio DER y Modelo relacional para documentar las tablas en la DB.
+2. Crear un Diagrama de Clases y Casos de Uso para facilitar el modelado en POO.
+3. Script sql de la base de datos actualizada con las tablas nuevas.
+4. Actualizar el repositorio grupal, creando una carpeta dentro de la branch
+- Responsabilidades:
+- Calendario: Fecha Inicio = 05/09/2023 -  Fecha de Fin = 29/09/2023
+- Inconvenientes: -
+
+#### N° de sprint: 2
+- Sprint Backlog:
+1. Funcionalidades completas (diseño y desarrollo integrado)
+2. CRUD básico funcional, uno para productos/servicios y otro para clientes/usuarios.
+3. Actualizar documentación IEEE830 - tablero Kanban (project) y Wiki.
+   - Dejar Issues cerradas si se finalizaron.
+   - Agregar Notas Aclaratorias o Anexos, si fuese necesario.
+4. Actualizado todo el proyecto en GitHub como respaldo del proyecto:
+   - Exportar la aplicación en un archivo para poder probarlo y subirla a GitHub.
+5. Demo final Video grupal con participación de todo el equipo describiendo todas las funcionalidades de la aplicación.
+6. OPCIONALES: aplicación publicada.
+7. TESTING:
+    1. Un video donde muestren de manera rápida (1 minuto) como aplicaron Accesibilidad en su proyecto.
+    2. Automatizar con Selenium IDE el siguiente material publicado Material 3 de estudio obligatorio Eje Temático N° 1 (Archivo .side).
+- Responsabilidades:
+- Calendario: Fecha Inicio = 30/09/2023  - Fecha de Fin 29/10/2023
+- Inconvenientes: 
+    - Falta de información.
+    - Desconocimiento de como proseguir con ciertas partes del proyecto.
+    - Desentendimiento de como hacer el CRUD básico funcional.
+
