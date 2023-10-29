@@ -40,6 +40,9 @@ BankArg repository. Universitary Project (ISPC)
 ## Planificación de casos de prueba
 * https://docs.google.com/spreadsheets/d/11NFxOZDACnIeen5MOgz6tVU_wM_sal1cWBXQvdNFUrE/edit?usp=sharing
 
-## Video Demo Navgacion 
+## Video Demo Navegacion 
 * https://www.youtube.com/watch?v=gYrCypQRQHs&t=18s
 
+## Casos de Prueba automatizados con Selenium
+Se trabajó sobre el sitio web https://www.saucedemo.com/, realizando 5 casos de prueba del login:
+* https://drive.google.com/file/d/1Q9ZL32cUeXCvk-MjsvOEhLSU_vXFrAHX/view?usp=sharing

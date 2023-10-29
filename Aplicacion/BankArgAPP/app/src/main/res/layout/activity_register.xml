@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/col1"
+    tools:context=".RegisterActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="349dp"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:background="@drawable/custom_edittext"
+        app:cardBackgroundColor="@color/col2"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:id="@+id/loginText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textAlignment="center"
+                android:textColor="@color/col3"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_person_24"
+                android:drawablePadding="8dp"
+                android:hint="Username"
+                android:padding="8dp"
+                android:textColor="@color/col1"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textColorHint="@color/col1" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/custom_edittext"
+                android:drawableLeft="@drawable/baseline_lock_person_24"
+                android:drawablePadding="8dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="8dp"
+                android:textColor="@color/col1"
+                android:textColorHighlight="@color/cardview_dark_background"
+                android:textColorHint="@color/col1" />
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="65dp">-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/CustomerName"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="@drawable/custom_edittext"-->
+<!--                    android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:hint="Name"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:textColor="@color/col1"-->
+<!--                    android:textColorHighlight="@color/cardview_dark_background"-->
+<!--                    android:textColorHint="@color/col1" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/LastName"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginLeft="2dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="@drawable/custom_edittext"-->
+<!--                    android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:hint="Last Name"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:textColor="@color/col1"-->
+<!--                    android:textColorHighlight="@color/cardview_dark_background"-->
+<!--                    android:textColorHint="@color/col1" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="65dp">-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/tipoDoc"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="@drawable/custom_edittext"-->
+<!--                    android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:hint="Doc Type"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:textColor="@color/col1"-->
+<!--                    android:textColorHighlight="@color/cardview_dark_background"-->
+<!--                    android:textColorHint="@color/col1" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/nroDoc"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginLeft="2dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="@drawable/custom_edittext"-->
+<!--                    android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:hint="Nro Doc"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:textColor="@color/col1"-->
+<!--                    android:textColorHighlight="@color/cardview_dark_background"-->
+<!--                    android:textColorHint="@color/col1" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/fecNac"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginTop="10dp"-->
+<!--                android:background="@drawable/custom_edittext"-->
+<!--                android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                android:drawablePadding="8dp"-->
+<!--                android:hint="Birth Date"-->
+<!--                android:padding="8dp"-->
+<!--                android:textColor="@color/col1"-->
+<!--                android:textColorHighlight="@color/cardview_dark_background"-->
+<!--                android:textColorHint="@color/col1" />-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="65dp">-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/codLoc"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="@drawable/custom_edittext"-->
+<!--                    android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:hint="Localidad"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:textColor="@color/col1"-->
+<!--                    android:textColorHighlight="@color/cardview_dark_background"-->
+<!--                    android:textColorHint="@color/col1" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/tipoSex"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginLeft="2dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="@drawable/custom_edittext"-->
+<!--                    android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:hint="Tipo Sexo"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:textColor="@color/col1"-->
+<!--                    android:textColorHighlight="@color/cardview_dark_background"-->
+<!--                    android:textColorHint="@color/col1" />-->
+
+<!--            </LinearLayout>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="65dp">-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/nroCalle"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="@drawable/custom_edittext"-->
+<!--                    android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:hint="Nro Calle"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:textColor="@color/col1"-->
+<!--                    android:textColorHighlight="@color/cardview_dark_background"-->
+<!--                    android:textColorHint="@color/col1" />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/Calle"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:layout_marginLeft="2dp"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="@drawable/custom_edittext"-->
+<!--                    android:drawableLeft="@drawable/baseline_person_24"-->
+<!--                    android:drawablePadding="8dp"-->
+<!--                    android:hint="Calle"-->
+<!--                    android:padding="8dp"-->
+<!--                    android:textColor="@color/col1"-->
+<!--                    android:textColorHighlight="@color/cardview_dark_background"-->
+<!--                    android:textColorHint="@color/col1" />-->
+
+<!--            </LinearLayout>-->
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/col3"
+                android:text="Registrate"
+                android:textColor="@color/col2"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                app:cornerRadius="24dp" />
+
+            <TextView
+                android:id="@+id/signupText"
+                android:layout_width="295dp"
+                android:layout_height="49dp"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:padding="8dp"
+                android:text="Already Registered? Sing In now"
+                android:textAlignment="center"
+                android:textColor="@color/col1"
+                android:textSize="19sp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

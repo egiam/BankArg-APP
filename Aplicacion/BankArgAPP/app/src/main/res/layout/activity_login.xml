@@ -66,6 +66,7 @@
                 android:drawablePadding="8dp"
                 android:hint="Username"
                 android:padding="8dp"
+                android:textColorHint="@color/col1"
                 android:textColor="@color/col1"
                 android:textColorHighlight="@color/cardview_dark_background" />
 
@@ -80,6 +81,7 @@
                 android:hint="Password"
                 android:inputType="textPassword"
                 android:padding="8dp"
+                android:textColorHint="@color/col1"
                 android:textColor="@color/col1"
                 android:textColorHighlight="@color/cardview_dark_background" />
 
@@ -97,13 +99,15 @@
 
             <TextView
                 android:id="@+id/signupText"
-                android:layout_width="297dp"
-                android:layout_height="wrap_content"
+                android:layout_width="293dp"
+                android:layout_height="49dp"
+                android:clickable="true"
+                android:onClick="onClick"
                 android:padding="8dp"
                 android:text="Not yet registered? SignUp Now"
                 android:textAlignment="center"
                 android:textColor="@color/col1"
-                android:textSize="14sp" />
+                android:textSize="19sp" />
 
         </LinearLayout>
     </androidx.cardview.widget.CardView>

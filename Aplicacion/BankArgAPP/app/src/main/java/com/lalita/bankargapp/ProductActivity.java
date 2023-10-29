@@ -13,6 +13,8 @@ import android.util.Log;
 import android.view.MenuItem;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
@@ -23,11 +25,40 @@ public class ProductActivity extends AppCompatActivity {
     NavigationView navigationView;
     Toolbar toolbar;
     ActionBarDrawerToggle toggle;
+    Button btnBanking, btnLoan, btnTransfer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_product);
+        setContentView(R.layout.activity_products);
+
+        btnBanking = findViewById(R.id.btn_banking);
+        btnLoan = findViewById(R.id.btn_loan);
+        btnTransfer = findViewById(R.id.btn_transfer);
+
+        btnTransfer.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ProductActivity.this, TransferActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnLoan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ProductActivity.this, LoanActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnBanking.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(ProductActivity.this, BankingActivity.class);
+                startActivity(intent);
+            }
+        });
 
         /*---------------------Hooks------------------------*/
         drawerLayout=findViewById(R.id.drawer_layout);
@@ -99,6 +130,8 @@ public class ProductActivity extends AppCompatActivity {
                 return true;
             }
         });
+
+
     }
 
     @Override
@@ -118,4 +151,11 @@ public class ProductActivity extends AppCompatActivity {
             super.onBackPressed();
         }
     }
+
+//    Product
+//    public void SobreNosotros() {
+//        Intent intent = new Intent(ProductActivity.this, SobreNosotrosActivity.class);
+//        startActivity(intent);
+//    }
+
 }

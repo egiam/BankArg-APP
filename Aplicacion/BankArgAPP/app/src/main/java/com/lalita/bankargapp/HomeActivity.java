@@ -13,6 +13,8 @@ import android.util.Log;
 import android.view.MenuItem;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
@@ -23,11 +25,67 @@ public class HomeActivity extends AppCompatActivity {
     NavigationView navigationView;
     Toolbar toolbar;
     ActionBarDrawerToggle toggle;
+    Button btnSoporte, btnTransferencias, btnPerfil, btnPrestamos, btnProductos, btnSobreNosotros;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        btnSoporte = findViewById(R.id.btn_soporte);
+        btnTransferencias = findViewById(R.id.btn_tranferencias);
+        btnPerfil = findViewById(R.id.btn_perfil);
+        btnPrestamos = findViewById(R.id.btn_prestamo);
+        btnProductos = findViewById(R.id.btn_productos);
+        btnSobreNosotros = findViewById(R.id.btn_sobre_nosotros);
+
+        btnSoporte.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, SupportActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnSobreNosotros.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, SobreNosActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnProductos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, ProductActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnTransferencias.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, TransferActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnPerfil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, PerfilActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        btnPrestamos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(HomeActivity.this, LoanActivity.class);
+                startActivity(intent);
+            }
+        });
 
         /*---------------------Hooks------------------------*/
         drawerLayout=findViewById(R.id.drawer_layout);
