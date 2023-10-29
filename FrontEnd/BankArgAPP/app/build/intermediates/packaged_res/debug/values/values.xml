@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="col1">#2C3333</color>
+    <color name="col2">#E7F6F2</color>
+    <color name="col3">#395B64</color>
+    <color name="col4">#F8F9FA</color>
+    <color name="col5">#767676</color>
+    <color name="col6">#FFFFFFFF</color>
+    <string name="app_name">BankArgAPP</string>
+    <string name="btn_acceder">Acceder</string>
+    <string name="form_password">Contraseña</string>
+    <string name="form_user">Usuario</string>
+    <string name="title_app_login">Login</string>
+    <style name="Base.Theme.BankArgAPP" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.BankArgAPP" parent="Base.Theme.BankArgAPP"/>
+</resources>
