@@ -25,20 +25,19 @@ public class HomeActivity extends AppCompatActivity {
     NavigationView navigationView;
     Toolbar toolbar;
     ActionBarDrawerToggle toggle;
-    Button btnSoporte, btnTransferencias, btnPerfil, btnPrestamos, btnProductos, btnSobreNosotros, btnSoporte;
+    Button btnSoporte, btnTransferencias, btnPerfil, btnPrestamos, btnProductos, btnSobreNosotros;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
-        btnSoporte = (Button) findViewById(R.id.btn_soporte);
+        btnSoporte = findViewById(R.id.btn_soporte);
         btnTransferencias = findViewById(R.id.btn_tranferencias);
         btnPerfil = findViewById(R.id.btn_perfil);
         btnPrestamos = findViewById(R.id.btn_prestamo);
         btnProductos = findViewById(R.id.btn_productos);
         btnSobreNosotros = findViewById(R.id.btn_sobre_nosotros);
-        btnSoporte = findViewById(R.id.btn_soporte);
 
         btnSoporte.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -85,13 +84,6 @@ public class HomeActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(HomeActivity.this, LoanActivity.class);
                 startActivity(intent);
-            }
-        });
-
-        btnSoporte.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(HomeActivity.this, SupportActivity.class);
             }
         });
 
