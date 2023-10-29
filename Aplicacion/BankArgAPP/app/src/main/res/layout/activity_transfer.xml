@@ -95,6 +95,7 @@
                     android:layout_marginStart="20dp"
                     android:layout_marginTop="8dp"
                     android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/poppins"
                     android:text="Balance:"
                     android:textColor="#000000"
                     android:textSize="28dp"
@@ -114,6 +115,7 @@
                     android:layout_marginTop="8dp"
                     android:layout_marginEnd="24dp"
                     android:layout_marginBottom="8dp"
+                    android:fontFamily="@font/poppins"
                     android:gravity="center_horizontal|center_vertical"
                     android:text="@string/some_id"
                     android:textAppearance="@style/some_id"
@@ -149,24 +151,27 @@
 
                 <TextView
                     android:id="@+id/textView26"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="76dp"
+                    android:layout_height="27dp"
                     android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppins"
                     android:text="Historial"
+                    android:textAlignment="textEnd"
                     android:textColor="#000000"
-                    android:textSize="24sp"
+                    android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toEndOf="@+id/textView27"
                     app:layout_constraintTop_toBottomOf="@+id/button12" />
 
                 <TextView
                     android:id="@+id/textView28"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="89dp"
+                    android:layout_height="29dp"
                     android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppins"
                     android:text="Transferir"
                     android:textColor="#000000"
-                    android:textSize="24sp"
+                    android:textSize="16sp"
                     app:layout_constraintEnd_toStartOf="@+id/textView27"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button13" />
@@ -176,9 +181,10 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
+                    android:fontFamily="@font/poppins"
                     android:text="Agregar"
                     android:textColor="#000000"
-                    android:textSize="24sp"
+                    android:textSize="16sp"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/button11" />
@@ -193,8 +199,10 @@
                     android:background="#E7F6F2"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+                    app:layout_constraintVertical_bias="0.979" />
 
                 <TextView
                     android:id="@+id/bankarg_des"
@@ -205,7 +213,6 @@
                     android:gravity="center_horizontal|center_vertical"
                     android:text="@string/bankarg_des"
                     android:textAppearance="@style/bankarg_des"
-                    android:textSize="21sp"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"

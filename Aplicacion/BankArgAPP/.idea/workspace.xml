@@ -10,6 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01698c86-09c7-45f0-891b-38ab5d695451" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_contact.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_loan.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_loan.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lalita/bankargapp/Clases/Usuarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lalita/bankargapp/Clases/Usuarios.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/lalita/bankargapp/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/lalita/bankargapp/LoginActivity.java" afterDir="false" />
@@ -22,7 +24,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[ZT3229LXKZ]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
