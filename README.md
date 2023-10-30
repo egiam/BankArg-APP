@@ -16,6 +16,7 @@ BankArg repository. Universitary Project (ISPC)
 |[Requerimientos](https://github.com/egiam/BankArg-APP/wiki/07-Requerimientos)|Requerimientos Funcionales y No Funcionales|
 |[IEEE830](https://github.com/egiam/BankArg-APP/wiki/08-IEEE830)|Documentacion del IEEE830|
 |[Testing](https://github.com/egiam/BankArg-APP/wiki/09-Testing)|Todo lo de testing del proyecto|
+|[Videos](https://github.com/egiam/BankArg-APP/wiki/10-Videos)|Todos los videos de los proyectos|
 
 
 ---
