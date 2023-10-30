@@ -46,3 +46,6 @@ BankArg repository. Universitary Project (ISPC)
 ## Casos de Prueba automatizados con Selenium
 Se trabajó sobre el sitio web https://www.saucedemo.com/, realizando 5 casos de prueba del login:
 * https://drive.google.com/file/d/1Q9ZL32cUeXCvk-MjsvOEhLSU_vXFrAHX/view?usp=sharing
+
+## Video Accesibilidad
+* https://drive.google.com/file/d/14V0KGYr_Ks8LxnSK9O2djWtU8z715ri_/view?usp=sharing
