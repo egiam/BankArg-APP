@@ -93,7 +93,7 @@ Establecemos distintos usuarios a saber:
 
 ### 2.4 Restricciones
 -	Interfaz para ser usada con internet.
--	Lenguajes y tecnologías en uso: Frontend HTML, CSS, JV Backend:Python, Base de datos: SQL 
+-	Lenguajes y tecnologías en uso: Frontend: XML - Backend: Java - Base de datos: SQLite 
 -	Los servidores deben ser capaces de atender consultas concurrentemente.
 -	El sistema se diseñará según un modelo cliente/servidor.
 -	El sistema deberá tener un diseño e implementación sencilla, independiente de la plataforma o del lenguaje de programación.
@@ -167,3 +167,24 @@ Establecemos distintos usuarios a saber:
     - Desconocimiento de como proseguir con ciertas partes del proyecto.
     - Desentendimiento de como hacer el CRUD básico funcional.
 
+
+## Links Extras:
+
+#### Figma
+* https://www.figma.com/file/AhjScpyVarUiVG0H8JI1IR/BankArg-Dise%C3%B1o-y-prototipado?type=design&node-id=0%3A1&mode=design&t=0lbUY3KUcLKTkotq-1
+
+#### Diagrama Relacional
+* https://dbdiagram.io/d/BankArg-6503c0ec02bd1c4a5e9c89a1
+
+## Planificación de casos de prueba
+* https://docs.google.com/spreadsheets/d/11NFxOZDACnIeen5MOgz6tVU_wM_sal1cWBXQvdNFUrE/edit?usp=sharing
+
+## Video Demo Navgacion 
+* [https://www.youtube.com/watch?v=gYrCypQRQHs&t=18s](https://www.youtube.com/watch?v=gYrCypQRQHs&t=18s)
+
+## Casos de Prueba automatizados con Selenium
+Se trabajó sobre el sitio web https://www.saucedemo.com/, realizando 5 casos de prueba del login:
+* https://drive.google.com/file/d/1Q9ZL32cUeXCvk-MjsvOEhLSU_vXFrAHX/view?usp=sharing
+
+## Video Accesibilidad
+* https://drive.google.com/file/d/14V0KGYr_Ks8LxnSK9O2djWtU8z715ri_/view?usp=sharing
