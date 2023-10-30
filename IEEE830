@@ -176,6 +176,15 @@ Establecemos distintos usuarios a saber:
 #### Diagrama Relacional
 * https://dbdiagram.io/d/BankArg-6503c0ec02bd1c4a5e9c89a1
 
+#### Modelo Relacional
+* https://github.com/egiam/BankArg-APP/blob/main/DataBase/Modelo%20Relacional%20(MySQLWorkbench).png
+
+#### Diagrama de Clases
+* https://github.com/egiam/BankArg-APP/blob/main/Documentacion/BankArg%20Diagrama%20de%20Clases.png
+
+#### Casos de Uso
+* https://github.com/egiam/BankArg-APP/blob/main/Documentacion/caso%20de%20uso%20.png
+
 #### Planificación de casos de prueba
 * https://docs.google.com/spreadsheets/d/11NFxOZDACnIeen5MOgz6tVU_wM_sal1cWBXQvdNFUrE/edit?usp=sharing
 
