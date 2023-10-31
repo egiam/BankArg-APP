@@ -161,6 +161,7 @@
                 android:fontFamily="@font/poppins"
                 android:text="Solicitar"
                 android:textSize="26dp"
+                android:textColor="@color/col6"
                 app:cornerRadius="10dp"
                 app:layout_constraintBottom_toTopOf="@+id/rectangle_2"
                 app:layout_constraintEnd_toEndOf="parent"

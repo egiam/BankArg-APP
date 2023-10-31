@@ -7,8 +7,9 @@
 
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".SupportActivity"
-    tools:openDrawer="start">
+    tools:context=".SupportActivity">
+
+    <!--    tools:openDrawer="start"-->
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -54,7 +55,146 @@
                 app:layout_constraintEnd_toEndOf="@+id/linearLayout"
                 app:layout_constraintTop_toTopOf="@+id/linearLayout" />
 
+
             <!--            HEADER END -->
+
+            <TextView
+                android:id="@+id/soporte"
+                android:layout_width="527dp"
+                android:layout_height="127dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="24dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Soporte"
+                android:textAppearance="@style/soporte"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <TextView
+                android:id="@+id/faq_pregunt"
+                android:layout_width="0dp"
+                android:layout_height="36dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="FAQ (Preguntas Frecuentes)"
+                android:textAppearance="@style/faq_pregunt"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/soporte" />
+
+            <TextView
+                android:id="@+id/describe_tu"
+                android:layout_width="255dp"
+                android:layout_height="64dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Describe tu consulta:"
+                android:textAppearance="@style/describe_tu"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/faq_pregunt" />
+
+            <EditText
+                android:id="@+id/tu_consulta"
+                android:layout_width="350dp"
+                android:layout_height="109dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/custom_edittext"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/describe_tu" />
+
+            <Button
+                android:id="@+id/Enviar"
+                android:layout_width="260dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="@color/col1"
+                android:text="Enviar"
+                android:textSize="26dp"
+                android:textColor="@color/col6"
+                app:cornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tu_consulta" />
+
+            <Button
+                android:id="@+id/seleccionar_fecha"
+                android:layout_width="343dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/col5"
+                android:onClick="abrirCalendario"
+                android:text="Seleccionar fecha:"
+                android:textAppearance="@style/seleccionar_fecha"
+                android:textSize="26dp"
+                android:textColor="@color/col6"
+                app:cornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Enviar" />
+
+            <Button
+                android:id="@+id/Solicitar_turno"
+                android:layout_width="260dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="16dp"
+                android:backgroundTint="@color/col1"
+                android:fontFamily="@font/poppins"
+                android:text="Solicitar turno"
+                android:textSize="26dp"
+                android:textColor="@color/col6"
+                app:cornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/seleccionar_fecha" />
+
+
+
+
+            <!--            FOOTER START -->
+            <View
+                android:id="@+id/rectangle_2"
+                android:layout_width="fill_parent"
+                android:layout_height="57dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="600dp"
+                android:background="#E7F6F2"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <TextView
+                android:id="@+id/bankarg_des"
+                android:layout_width="433dp"
+                android:layout_height="50dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="3dp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/bankarg_des"
+                android:textAppearance="@style/bankarg_des"
+                android:textSize="21sp"
+                app:layout_constraintBottom_toBottomOf="@+id/rectangle_2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/rectangle_2" />
+
+            <!-- FOOTER END -->
+
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

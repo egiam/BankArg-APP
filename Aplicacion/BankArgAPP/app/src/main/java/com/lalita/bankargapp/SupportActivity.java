@@ -8,14 +8,19 @@ import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 
+import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.util.Log;
 import android.view.MenuItem;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.DatePicker;
 import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
+
+import java.util.Calendar;
 
 public class SupportActivity extends AppCompatActivity {
 
@@ -23,6 +28,7 @@ public class SupportActivity extends AppCompatActivity {
     NavigationView navigationView;
     Toolbar toolbar;
     ActionBarDrawerToggle toggle;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -117,5 +123,22 @@ public class SupportActivity extends AppCompatActivity {
         } else {
             super.onBackPressed();
         }
+    }
+
+
+    public void abrirCalendario(View view) {
+        Calendar cal = Calendar.getInstance();
+        int anio = cal.get(Calendar.YEAR);
+        int mes = cal.get(Calendar.MONTH);
+        int dia = cal.get(Calendar.DAY_OF_MONTH);
+
+        DatePickerDialog dpd = new DatePickerDialog(SupportActivity.this, new DatePickerDialog.OnDateSetListener() {
+            @Override
+            public void onDateSet(DatePicker datePicker, int i, int i1, int i2) {
+                String fecha = i + "/" + i1 + "/" + i2;
+
+            }
+        }, anio, mes, dia);
+        dpd.show();
     }
 }
