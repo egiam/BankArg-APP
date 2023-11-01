@@ -1,48 +1,50 @@
+IEEE830 
+Subo link para editar Requerimientos 
+
 Link de DRIVE https://docs.google.com/document/d/1GP3mUcusSDJSBabNtAv_j24QICd07vWKgxNyWRG0tnY
 
-# Especificacion de Requerimientos de Software
-Proyecto BankArg
+# Especificación de Requerimientos de Software
+## Proyecto BankArg
 
-## Capitulo 2
-Proyecto BankArg
+### Introducción
+Este documento constituye una Especificación de Requisitos de Software (ERS) diseñada para el Sistema de Información de Banca Online. La presente especificación se ha estructurado conforme al estándar IEEE, basado en la práctica recomendada para especificaciones de Requisitos de Software ANSI/IEEE 830 de 1998.
 
-## Introducción
-Este documento es una Especificación de Requisitos Software (ERS) para el Sistema de información de banca online. Esta especificación se ha estructurado en base al estándar IEEE. Práctica recomendada para especificaciones de Requisitos Software ANSI/IEEE 830, 1998.
-### 1.1 Propósito
-El presente documento tiene como propósito definir las especificaciones funcionales para el desarrollo de un sistema de información web que permitirá al usuario acceder a su cuenta bancaria.
-### 1.2 Ámbito del sistema
-El sistema será definido como BankArg. Proporcionará un manejo eficiente sobre la información entre el usuario y los dueños del banco.
-El principal beneficio es aportar un entorno seguro y ágil para que los usuarios, luego de un tutorial de bienvenida y haber ingresado al sistema bancario personal con sus respectivos usuarios y contraseñas, puedan visualizar su saldo, registrar contactos frecuentes, realizar transferencias a terceros, administrar sus tarjetas, agregar pago de servicios, recibir alertas de vencimientos, solicitar préstamos, validación de token, aviso en caso de inicio de sesión en otro dispositivo, turnero online, y por úlitmo un formulario de contacto.
-Como contraparte los dueños del banco obtendrán un reporte de los usuarios registrados junto con los servicios más utilizados, que les permitirán otorgar un mejor servicio y realizar futuras adecuaciones.
-### 1.3 Definiciones, acrónimos y abreviaturas
+#### 1.1 Propósito
+El propósito fundamental de este documento es definir las especificaciones funcionales destinadas al desarrollo de un sistema de información web que habilite a los usuarios el acceso a sus cuentas bancarias.
 
-- Usuario = Persona que usará el sistema para visualizar su cuenta bancaria
-- SIS-I = Sistema de Información Web para la Gestión de Procesos Administrativos y Académicos
-- ERS = Especificación de Requisitos Software
-- RF = Requerimiento Funcional
-- RNF = Requerimiento No Funcional
-- FTP = Protocolo de Transferencia de Archivos
+#### 1.2 Ámbito del Sistema
+El sistema, denominado BankArg, será la plataforma encargada de gestionar eficientemente la interacción entre los usuarios y los propietarios del banco. Su principal objetivo es proporcionar un entorno seguro y ágil que permita a los usuarios, tras un tutorial de bienvenida y el ingreso a su sistema bancario personal mediante credenciales apropiadas, realizar diversas acciones. Estas incluyen la visualización de saldos, registro de contactos frecuentes, transferencias a terceros, administración de tarjetas, pago de servicios, recepción de alertas por vencimientos, solicitud de préstamos, validación de tokens, notificaciones en caso de inicio de sesión desde otro dispositivo, turnos online y, por último, un formulario de contacto.
+
+En contraparte, los propietarios del banco obtendrán un reporte que detallará los usuarios registrados y los servicios más utilizados. Esto les permitirá mejorar el servicio y efectuar ajustes futuros.
+
+#### 1.3 Definiciones, Acrónimos y Abreviaturas
+- **Usuario:** Persona que utilizará el sistema para acceder a su cuenta bancaria.
+- **SIS-I:** Sistema de Información Web para la Gestión de Procesos Administrativos y Académicos.
+- **ERS:** Especificación de Requisitos de Software.
+- **RF:** Requerimiento Funcional.
+- **RNF:** Requerimiento No Funcional.
+- **FTP:** Protocolo de Transferencia de Archivos.
 
 ### 1.4 Personal involucrado
 - Nombre: Ezequiel Giampaoli
-/ Rol: Scrum master y desarrollador
+/ Rol: Scrum Master y desarrollador
 / Información de contacto: ezegiampaoli@gmail.com
 
 - Nombre: Gabriel Alejandro Orellana
 / Rol: Desarrollador
-/ Información de contacto: gabi.ale.orellana@gmail.com
+/ Información de contacto: gabi.ale.orellana@gmail.com (Abandono)
 
 - Nombre: Soledad Peralta
 / Rol: Desarrolladora
-/ Información de contacto: ssperaltaa@gmail.com
+/ Información de contacto: ssperaltaa@gmail.com (Abandono)
 
 - Nombre: Roberto Ariel Milian
 / Rol: Desarrollador
-/ Información de contacto: milianarieleam@gmail.com
+/ Información de contacto: milianarieleam@gmail.com (?)
 
 - Nombre: Mariana Trinidad Benegas 
 / Rol: Desarrollador
-/ Información de contacto: trinidadbenegas.estudio@gmail.com
+/ Información de contacto: trinidadbenegas.estudio@gmail.com (?)
 
 - Nombre: Joaquin Bonvechi
 / Rol: Desarrollador
@@ -58,43 +60,41 @@ Como contraparte los dueños del banco obtendrán un reporte de los usuarios reg
 
 - Nombre: Silvana del Pilar Barea
 / Rol: Desarrollador
-/ Información de contacto: silvanahousseini@gmail.com
+/ Información de contacto: silvanahousseini@gmail.com (Abandono)
 
 ### 1.5 Referencias
-- Titulo del documento: Standard IEEE 830 - 1998
-- Referencia: IEEE 
+- **Título del Documento:** Standard IEEE 830 - 1998
+- **Referencia:** IEEE
 
-### 1.6 Resúmen
-Este documento se ha estructurado en tres partes: primero se realiza una introducción al proyecto desarrollado otorgando una visión general de la especificación de recursos del sistema. En segundo lugar se intenta establecer las principales funciones que éste debe realizar, los datos asociados y los factores, restricciones, supuestos y dependencias que afectan al desarrollo, sin entrar en excesivos detalles. Por último, se definen detalladamente los requisitos que debe satisfacer el sistema.
-
+### 1.6 Resumen
+Este documento se ha estructurado en tres partes: en primer lugar, se proporciona una introducción al proyecto que ofrece una visión general de la especificación de los recursos del sistema. En segundo lugar, se intenta establecer las funciones principales que el sistema debe llevar a cabo, junto con los datos asociados, factores, restricciones, suposiciones y dependencias que afectan al desarrollo, sin entrar en excesivos detalles. Por último, se definen detalladamente los requisitos que el sistema debe cumplir.
 ## 2. Descripción general
 
 ### 2.1 Perspectiva del producto
-El sistema de banca online “BankArg” será un producto diseñado en principio para trabajar en entornos WEB, lo que permitirá su utilización de forma rápida y eficaz, accesible en cualquier dispositivo. Contará con distintas secciones para que el usuario pueda acceder a todos sus datos relevantes, historial de movimientos, transferencias, pagos, turnos, préstamos y seguridad. Tendrá además una guía de ayuda para que los usuarios puedan resolver todas sus dudas con respecto al uso del sistema y sus herramientas disponibles. 
+El sistema de banca online “BankArg” será un producto diseñado inicialmente para funcionar en entornos web, lo que permitirá su uso rápido y efectivo, accesible desde cualquier dispositivo. Contará con secciones distintas que permitirán al usuario acceder a todos sus datos relevantes, historial de movimientos, transferencias, pagos, turnos, préstamos y aspectos relacionados con la seguridad. Además, incluirá una guía de ayuda para que los usuarios resuelvan cualquier duda respecto al uso del sistema y las herramientas disponibles.
 
 ### 2.2 Funciones del producto
-En principio "BankArg" proporcionará las siguientes funciones:
+En esencia, "BankArg" proporcionará las siguientes funciones:
 - Acceso a cuenta
 - Transferencias de dinero
 - Pagos de servicios con sus respectivos comprobantes
 - Alertas de vencimientos
-- Solicitud de préstamos 
-- Validación token para mayor seguridad
+- Solicitud de préstamos
+- Validación de token para mayor seguridad
 - Avisos en caso de iniciar sesión en otro dispositivo
 
 ### 2.3 Características de los usuarios
-Establecemos distintos usuarios a saber:
-- Los usuarios finales de este producto, no requieren de ningúna formación previa para su utilización.
+Se identifican diferentes tipos de usuarios:
+- Los usuarios finales de este producto no requieren de ninguna formación previa para su utilización.
 - Desarrolladores, con amplios conocimientos para la implementación del software propuesto.
-- Y por último los Dueños de BankArg íntegramente capacitados en el sistema bancario.
+- Finalmente, los dueños de BankArg están completamente capacitados en el sistema bancario.
 
 ### 2.4 Restricciones
--	Interfaz para ser usada con internet.
--	Lenguajes y tecnologías en uso: Frontend HTML, CSS, JV Backend:Python, Base de datos: SQL 
--	Los servidores deben ser capaces de atender consultas concurrentemente.
--	El sistema se diseñará según un modelo cliente/servidor.
--	El sistema deberá tener un diseño e implementación sencilla, independiente de la plataforma o del lenguaje de programación.
-
+- Interfaz destinada a ser utilizada en internet.
+- Lenguajes y tecnologías utilizadas: Frontend: XML - Backend: Java - Base de datos: SQLite
+- Los servidores deben ser capaces de manejar consultas concurrentes.
+- El sistema se diseñará según un modelo cliente/servidor.
+- El sistema debe tener un diseño e implementación sencilla, independiente de la plataforma o del lenguaje de programación.
 
 ## 3. Requisitos especificos
 
@@ -105,7 +105,22 @@ Establecemos distintos usuarios a saber:
 - US03 Como equipo de diseño, necesitamos crear una interfaz de usuario inicial atractiva y funcional para la aplicación móvil que refleje los objetivos y requisitos del proyecto.
 - US04 Como administrador del banco, necesito una interfaz de administración segura que me permita supervisar y gestionar las cuentas de los clientes de manera eficiente y confiable.
 - US05 Como desarrollador, necesito implementar la pantalla de inicio de la aplicación móvil de acuerdo con el diseño proporcionado por el equipo de diseño.
-- US06- Como usuario quiero un tablero simple y accesible para ver el estado de mi cuenta
+- US06 Como usuario, deseo tener un dashboard simple y accesible en la aplicación que me permita ver fácilmente el estado de mi cuenta bancaria, incluyendo información clave sobre mis saldos, movimientos y resúmenes.
+- US07 Como desarrollador de bases de datos, necesito crear un Diagrama de Entidad-Relación (DER) y un Modelo Relacional para documentar las tablas en la base de datos del proyecto.
+- US08 Como desarrollador, necesito crear un Diagrama de Clases y un Diagrama de Casos de Uso para facilitar la implementación en Programación Orientada a Objetos (POO).
+- US09 Como administrador de bases de datos, necesito generar un script SQL que actualice la base de datos con las nuevas tablas diseñadas.
+- US10 Como miembro del equipo, necesito actualizar el repositorio grupal creando una carpeta dentro de la rama principal (main) para almacenar documentos relacionados con el proyecto.
+- US11 Como diseñador de interfaz de usuario, necesito crear el diseño de las pantallas de Activity en Figma y establecer la navegabilidad en el proyecto de Android Studio, incluso antes de implementar la funcionalidad.
+- US12 Como desarrollador, necesito cargar los diseños y la navegabilidad de la aplicación en el repositorio grupal utilizando GIT, crear una rama por desarrollador y una rama feature para realizar cambios que aún no están listos para la rama develop.
+- US13 Como administrador de versiones, necesito gestionar la rama principal (main o master) para mantener versiones estables del proyecto, listas para producción, al finalizar cada sprint.
+- US14 Como administrador del proyecto, necesito activar la opción WIKI en GitHub para reflejar avances individuales y de equipo.
+- US15 Como miembro del equipo de calidad, necesito planificar tres casos de prueba para la aplicación que se está desarrollando en el proyecto con el fin de asegurar su calidad y funcionamiento adecuado.
+- US16 Como miembro del equipo de desarrollo, quiero diseñar y desarrollar todas las funcionalidades de la aplicación de manera completa, integrando tanto el diseño como la programación para crear una aplicación funcional y atractiva.
+- US17 Como desarrollador, necesito implementar operaciones CRUD (Crear, Leer, Actualizar, Borrar) para productos/servicios en la aplicación, lo que permitirá gestionar eficazmente estos elementos.
+- US18 Como desarrollador, necesito implementar operaciones CRUD para clientes/usuarios en la aplicación para facilitar la gestión de estos elementos.
+- US19 Como equipo, necesitamos crear un video de demostración final que describa y muestre todas las funcionalidades de la aplicación para presentarla de manera efectiva.
+- US20 Como desarrollador, necesito exportar la aplicación en un archivo ejecutable y subirla a GitHub para que los usuarios puedan probarla y revisar el código fuente.
+- US21 Como equipo, podemos optar por publicar la aplicación en una plataforma para su disponibilidad pública si así lo deseamos.
 
 ## SPRINTS
 
@@ -125,5 +140,142 @@ Establecemos distintos usuarios a saber:
 3. Script sql de la base de datos actualizada con las tablas nuevas.
 4. Actualizar el repositorio grupal, creando una carpeta dentro de la branch
 - Responsabilidades:
-- Calendario: Fecha Inicio = 
+- Calendario: Fecha Inicio = 05/09/2023 -  Fecha de Fin = 29/09/2023
 - Inconvenientes: -
+
+#### N° de sprint: 2
+- Sprint Backlog:
+1. Funcionalidades completas (diseño y desarrollo integrado)
+2. CRUD básico funcional, uno para productos/servicios y otro para clientes/usuarios.
+3. Actualizar documentación IEEE830 - tablero Kanban (project) y Wiki.
+   - Dejar Issues cerradas si se finalizaron.
+   - Agregar Notas Aclaratorias o Anexos, si fuese necesario.
+4. Actualizado todo el proyecto en GitHub como respaldo del proyecto:
+   - Exportar la aplicación en un archivo para poder probarlo y subirla a GitHub.
+5. Demo final Video grupal con participación de todo el equipo describiendo todas las funcionalidades de la aplicación.
+6. OPCIONALES: aplicación publicada.
+7. TESTING:
+    1. Un video donde muestren de manera rápida (1 minuto) como aplicaron Accesibilidad en su proyecto.
+    2. Automatizar con Selenium IDE el siguiente material publicado Material 3 de estudio obligatorio Eje Temático N° 1 (Archivo .side).
+- Responsabilidades:
+- Calendario: Fecha Inicio = 30/09/2023  - Fecha de Fin 29/10/2023
+- Inconvenientes: 
+    - Falta de información.
+    - Desconocimiento de como proseguir con ciertas partes del proyecto.
+    - Desentendimiento de como hacer el CRUD básico funcional.
+
+### 3.2 Requerimientos Funcionales y No Funcionales
+
+#### **Requerimientos Funcionales:**
+
+1. **Inicio de Sesión y Registro de Usuario:**
+    - Los usuarios deben poder registrarse en la aplicación proporcionando información personal y de contacto.
+    - Debe existir un proceso de autenticación seguro para el inicio de sesión, que podría incluir autenticación de dos factores (2FA) opcional para una mayor seguridad.
+    - Los usuarios deben poder recuperar sus contraseñas en caso de olvido mediante un procedimiento seguro y confiable.
+
+2. **Consulta de Saldo y Movimientos:**
+    - Los clientes deben poder ver el saldo de sus cuentas y los movimientos recientes de manera clara y organizada.
+    - Deben poder filtrar y buscar transacciones específicas según fechas, tipos de transacciones o beneficiarios.
+
+3. **Transferencias y Pagos:**
+    - Los usuarios deben poder realizar transferencias entre cuentas propias o a cuentas de terceros de forma intuitiva y segura.
+    - Debe ser posible pagar facturas y servicios, así como configurar pagos programados para una gestión financiera conveniente.
+
+4. **Alertas y Notificaciones:**
+    - Los clientes deben poder configurar alertas personalizadas para transacciones y saldos que les permitan un seguimiento constante de sus cuentas.
+    - Deben recibir notificaciones instantáneas de transacciones y actividades en sus cuentas para una gestión proactiva de sus finanzas.
+
+5. **Gestión de Tarjetas:**
+    - Los usuarios deben poder bloquear o desbloquear tarjetas de débito o crédito de manera rápida en caso de pérdida o robo.
+    - Deben poder solicitar nuevas tarjetas y gestionar los límites de crédito de acuerdo a sus necesidades financieras.
+
+6. **Depósitos y Retiros:**
+    - Los usuarios deben poder realizar depósitos en sus cuentas desde otras fuentes, como escaneando cheques o transfiriendo fondos de manera sencilla.
+    - Deben poder solicitar retiros de fondos a cuentas externas para una gestión flexible de sus recursos.
+
+7. **Historial de Transacciones:**
+    - Los clientes deben tener acceso a un historial completo de sus transacciones y estados de cuenta anteriores para un seguimiento detallado de su actividad financiera.
+
+8. **Atención al Cliente:**
+    - Debe proporcionarse un chat en línea o soporte de mensajes para que los usuarios puedan comunicarse con el servicio de atención al cliente de manera eficiente.
+    - Deben poder programar citas con asesores financieros si es relevante para recibir orientación personalizada.
+
+9. **Seguridad y Autenticación Biométrica:**
+    - Los usuarios deben poder habilitar la autenticación biométrica, como la huella digital o el reconocimiento facial, para una capa adicional de seguridad en el acceso a la aplicación.
+
+***
+
+#### **Requerimientos No Funcionales:**
+
+1. **Seguridad y Privacidad:**
+    - La aplicación debe cumplir con los más altos estándares de seguridad para proteger la información sensible del cliente.
+    - Debe cumplir con las regulaciones de privacidad de datos, como el RGPD en Europa, garantizando la confidencialidad y privacidad de los datos.
+
+2. **Rendimiento:**
+    - La aplicación debe tener un rendimiento rápido y fluido, con tiempos de carga mínimos, asegurando una experiencia ágil para el usuario.
+    - Debe ser capaz de manejar múltiples conexiones simultáneas de manera eficiente sin afectar la velocidad.
+
+3. **Disponibilidad y Tolerancia a Fallos:**
+    - La aplicación debe estar disponible en todo momento, con un tiempo de inactividad mínimo, garantizando continuidad en el servicio.
+    - Debe tener mecanismos de respaldo y recuperación en caso de fallos del sistema para una operatividad ininterrumpida.
+
+4. **Compatibilidad y Usabilidad:**
+    - La aplicación debe ser compatible con una amplia gama de dispositivos Android y versiones de sistema operativo para llegar a una mayor audiencia.
+    - Debe contar con una interfaz de usuario intuitiva y accesible para usuarios de todas las edades y niveles de habilidad, facilitando su uso.
+
+5. **Escalabilidad:**
+    - La infraestructura subyacente debe ser escalable para manejar un crecimiento sostenido de usuarios y transacciones sin comprometer el rendimiento.
+    
+6. **Mantenimiento y Actualizaciones:**
+    - Debe ser posible realizar actualizaciones y mantenimiento de la aplicación sin afectar la disponibilidad del servicio, asegurando una mejora continua.
+
+7. **Documentación y Capacitación:**
+    - Debe proporcionarse documentación clara para los usuarios sobre cómo utilizar la aplicación, brindando una experiencia de usuario óptima.
+    - Los empleados y administradores deben recibir capacitación adecuada para brindar soporte a los clientes de manera efectiva.
+
+8. **Cumplimiento Normativo:**
+    - La aplicación debe cumplir con todas las regulaciones bancarias y financieras aplicables en la jurisdicción en la que opera, asegurando el cumplimiento legal y ético.
+
+
+
+
+## Links Extras:
+
+#### Figma
+* https://www.figma.com/file/AhjScpyVarUiVG0H8JI1IR/BankArg-Dise%C3%B1o-y-prototipado?type=design&node-id=0%3A1&mode=design&t=0lbUY3KUcLKTkotq-1
+
+#### Diagrama Relacional
+* https://dbdiagram.io/d/BankArg-6503c0ec02bd1c4a5e9c89a1
+
+#### Diagrama Entidad Relacion
+* https://github.com/egiam/BankArg-APP/blob/main/Documentacion/DER.drawio.png
+
+![DER](https://github.com/egiam/BankArg-APP/blob/main/Documentacion/DER.drawio.png)
+
+#### Modelo Relacional
+* https://github.com/egiam/BankArg-APP/blob/main/DataBase/Modelo%20Relacional%20(MySQLWorkbench).png
+
+![Modelo Relacional](https://github.com/egiam/BankArg-APP/blob/main/DataBase/Modelo%20Relacional%20(MySQLWorkbench).png)
+
+#### Diagrama de Clases
+* https://github.com/egiam/BankArg-APP/blob/main/Documentacion/BankArg%20Diagrama%20de%20Clases.png
+
+![Diagrama de Clases](https://github.com/egiam/BankArg-APP/blob/main/Documentacion/BankArg%20Diagrama%20de%20Clases.png)
+
+#### Casos de Uso
+* https://github.com/egiam/BankArg-APP/blob/main/Documentacion/caso%20de%20uso%20.png
+
+![Casos de Uso](https://github.com/egiam/BankArg-APP/blob/main/Documentacion/caso%20de%20uso%20.png)
+
+#### Planificación de casos de prueba
+* https://docs.google.com/spreadsheets/d/11NFxOZDACnIeen5MOgz6tVU_wM_sal1cWBXQvdNFUrE/edit?usp=sharing
+
+#### Video Demo Navgacion 
+* [https://www.youtube.com/watch?v=gYrCypQRQHs&t=18s](https://www.youtube.com/watch?v=gYrCypQRQHs&t=18s)
+
+#### Casos de Prueba automatizados con Selenium
+Se trabajó sobre el sitio web https://www.saucedemo.com/, realizando 5 casos de prueba del login:
+* https://drive.google.com/file/d/1Q9ZL32cUeXCvk-MjsvOEhLSU_vXFrAHX/view?usp=sharing
+
+#### Video Accesibilidad
+* https://drive.google.com/file/d/14V0KGYr_Ks8LxnSK9O2djWtU8z715ri_/view?usp=sharing
