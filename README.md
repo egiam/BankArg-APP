@@ -59,6 +59,10 @@ BankArg repository. Universitary Project (ISPC)
 ## Video Demo Navegacion 
 * https://www.youtube.com/watch?v=gYrCypQRQHs&t=18s
 
+## Video App  
+* https://www.youtube.com/watch?v=75mPLrZDANo&t=11s
+
+
 ## Casos de Prueba automatizados con Selenium
 Se trabajó sobre el sitio web https://www.saucedemo.com/, realizando 5 casos de prueba del login:
 * https://drive.google.com/file/d/1Q9ZL32cUeXCvk-MjsvOEhLSU_vXFrAHX/view?usp=sharing
